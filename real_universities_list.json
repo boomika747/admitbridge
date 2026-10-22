@@ -1,0 +1,6635 @@
+[
+  {
+    "university_name": "Massachusetts Institute of Technology",
+    "state": "Massachusetts",
+    "area": "Cambridge",
+    "fee": 55000,
+    "tier": 1,
+    "country": "US",
+    "university_link": "http://web.mit.edu/"
+  },
+  {
+    "university_name": "Stanford University",
+    "state": "California",
+    "area": "Stanford",
+    "fee": 57000,
+    "tier": 1,
+    "country": "US",
+    "university_link": "http://www.stanford.edu/"
+  },
+  {
+    "university_name": "Harvard University",
+    "state": "Massachusetts",
+    "area": "Cambridge",
+    "fee": 57000,
+    "tier": 1,
+    "country": "US",
+    "university_link": "http://www.harvard.edu/"
+  },
+  {
+    "university_name": "Carnegie Mellon University",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 52000,
+    "tier": 1,
+    "country": "US",
+    "university_link": "http://www.cmu.edu/"
+  },
+  {
+    "university_name": "Georgia Institute of Technology",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Macon",
+    "fee": 30887,
+    "tier": 3,
+    "university_link": "http://www.gatech.edu/"
+  },
+  {
+    "university_name": "University of Southern California",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 60000,
+    "tier": 2,
+    "country": "US",
+    "university_link": "http://www.usc.edu/"
+  },
+  {
+    "university_name": "Arizona State University",
+    "state": "Arizona",
+    "area": "Tempe",
+    "fee": 32000,
+    "tier": 3,
+    "country": "US",
+    "university_link": "http://www.asu.edu/"
+  },
+  {
+    "university_name": "University of Texas at Dallas",
+    "state": "Texas",
+    "area": "Richardson",
+    "fee": 38000,
+    "tier": 3,
+    "country": "US",
+    "university_link": "http://www.utdallas.edu/"
+  },
+  {
+    "university_name": "New York University",
+    "country": "US",
+    "state": "New York",
+    "area": "Syracuse",
+    "fee": 28028,
+    "tier": 2,
+    "university_link": "http://www.nyu.edu/"
+  },
+  {
+    "university_name": "University of Central Florida",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 26000,
+    "tier": 3,
+    "country": "US",
+    "university_link": "http://www.ucf.edu/"
+  },
+  {
+    "university_name": "California State University",
+    "country": "US",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 32602,
+    "tier": 3,
+    "university_link": "https://csueastbay.edu"
+  },
+  {
+    "university_name": "California University",
+    "country": "US",
+    "state": "California",
+    "area": "Fresno",
+    "fee": 41142,
+    "tier": 1,
+    "university_link": "https://www.californiauniversity.edu"
+  },
+  {
+    "university_name": "California Institute of Technology",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 43757,
+    "tier": 3,
+    "university_link": "http://www.caltech.edu/"
+  },
+  {
+    "university_name": "California College",
+    "country": "US",
+    "state": "California",
+    "area": "San Diego",
+    "fee": 22680,
+    "tier": 2,
+    "university_link": "https://www.californiacollege.edu"
+  },
+  {
+    "university_name": "California Polytechnic University",
+    "country": "US",
+    "state": "California",
+    "area": "San Diego",
+    "fee": 27137,
+    "tier": 2,
+    "university_link": "https://www.californiapolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "California A&M University",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 56359,
+    "tier": 1,
+    "university_link": "https://www.californiaamuniversity.edu"
+  },
+  {
+    "university_name": "California Tech",
+    "country": "US",
+    "state": "California",
+    "area": "Fresno",
+    "fee": 32319,
+    "tier": 3,
+    "university_link": "https://www.californiatech.edu"
+  },
+  {
+    "university_name": "California Wesleyan University",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 56455,
+    "tier": 1,
+    "university_link": "https://www.californiawesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Francisco",
+    "fee": 29286,
+    "tier": 2,
+    "university_link": "https://www.universityofcalifornia.edu"
+  },
+  {
+    "university_name": "State College of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 35151,
+    "tier": 3,
+    "university_link": "https://www.statecollegeofcalifornia.edu"
+  },
+  {
+    "university_name": "Institute of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 41724,
+    "tier": 1,
+    "university_link": "https://www.instituteofcalifornia.edu"
+  },
+  {
+    "university_name": "Northern California",
+    "country": "US",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 40308,
+    "tier": 2,
+    "university_link": "https://www.northerncalifornia.edu"
+  },
+  {
+    "university_name": "Southern California",
+    "country": "US",
+    "state": "California",
+    "area": "Sacramento",
+    "fee": 39286,
+    "tier": 2,
+    "university_link": "https://www.southerncalifornia.edu"
+  },
+  {
+    "university_name": "Eastern California",
+    "country": "US",
+    "state": "California",
+    "area": "Sacramento",
+    "fee": 23373,
+    "tier": 3,
+    "university_link": "https://www.easterncalifornia.edu"
+  },
+  {
+    "university_name": "Western California",
+    "country": "US",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 44264,
+    "tier": 2,
+    "university_link": "https://www.westerncalifornia.edu"
+  },
+  {
+    "university_name": "Central California",
+    "country": "US",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 27740,
+    "tier": 2,
+    "university_link": "https://www.centralcalifornia.edu"
+  },
+  {
+    "university_name": "Los Angeles University of California",
+    "country": "US",
+    "state": "California",
+    "area": "Los Angeles",
+    "fee": 39532,
+    "tier": 2,
+    "university_link": "https://www.losangelesuniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "San Diego University of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Diego",
+    "fee": 37942,
+    "tier": 3,
+    "university_link": "https://www.sandiegouniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "San Jose University of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Jose",
+    "fee": 20574,
+    "tier": 2,
+    "university_link": "https://www.sanjoseuniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "San Francisco University of California",
+    "country": "US",
+    "state": "California",
+    "area": "San Francisco",
+    "fee": 43829,
+    "tier": 3,
+    "university_link": "https://www.sanfranciscouniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "Sacramento University of California",
+    "country": "US",
+    "state": "California",
+    "area": "Sacramento",
+    "fee": 23900,
+    "tier": 3,
+    "university_link": "https://www.sacramentouniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "Fresno University of California",
+    "country": "US",
+    "state": "California",
+    "area": "Fresno",
+    "fee": 22908,
+    "tier": 2,
+    "university_link": "https://www.fresnouniversityofcalifornia.edu"
+  },
+  {
+    "university_name": "Texas State University",
+    "country": "US",
+    "state": "Texas",
+    "area": "Austin",
+    "fee": 38759,
+    "tier": 3,
+    "university_link": "http://www.txstate.edu/"
+  },
+  {
+    "university_name": "Texas University",
+    "country": "US",
+    "state": "Texas",
+    "area": "San Antonio",
+    "fee": 39631,
+    "tier": 3,
+    "university_link": "https://www.texasuniversity.edu"
+  },
+  {
+    "university_name": "Texas Institute of Technology",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 38110,
+    "tier": 2,
+    "university_link": "https://www.texasinstituteoftechnology.edu"
+  },
+  {
+    "university_name": "Texas College",
+    "country": "US",
+    "state": "Texas",
+    "area": "San Antonio",
+    "fee": 28226,
+    "tier": 3,
+    "university_link": "https://www.texascollege.edu/"
+  },
+  {
+    "university_name": "Texas Polytechnic University",
+    "country": "US",
+    "state": "Texas",
+    "area": "Houston",
+    "fee": 35561,
+    "tier": 2,
+    "university_link": "https://www.texaspolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Texas A&M University",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 37119,
+    "tier": 2,
+    "university_link": "https://www.texasamuniversity.edu"
+  },
+  {
+    "university_name": "Texas Tech",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 22529,
+    "tier": 2,
+    "university_link": "https://www.texastech.edu"
+  },
+  {
+    "university_name": "Texas Wesleyan University",
+    "country": "US",
+    "state": "Texas",
+    "area": "Fort Worth",
+    "fee": 26849,
+    "tier": 2,
+    "university_link": "https://txwes.edu/"
+  },
+  {
+    "university_name": "University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "El Paso",
+    "fee": 41212,
+    "tier": 3,
+    "university_link": "https://www.universityoftexas.edu"
+  },
+  {
+    "university_name": "State College of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "El Paso",
+    "fee": 26436,
+    "tier": 2,
+    "university_link": "https://www.statecollegeoftexas.edu"
+  },
+  {
+    "university_name": "Institute of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "San Antonio",
+    "fee": 26022,
+    "tier": 3,
+    "university_link": "https://www.instituteoftexas.edu"
+  },
+  {
+    "university_name": "Northern Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "El Paso",
+    "fee": 22300,
+    "tier": 2,
+    "university_link": "https://www.northerntexas.edu"
+  },
+  {
+    "university_name": "Southern Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 38634,
+    "tier": 3,
+    "university_link": "https://www.southerntexas.edu"
+  },
+  {
+    "university_name": "Eastern Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 28435,
+    "tier": 2,
+    "university_link": "https://www.easterntexas.edu"
+  },
+  {
+    "university_name": "Western Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 20171,
+    "tier": 3,
+    "university_link": "https://www.westerntexas.edu"
+  },
+  {
+    "university_name": "Central Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 37720,
+    "tier": 2,
+    "university_link": "https://www.centraltexas.edu"
+  },
+  {
+    "university_name": "Houston University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Houston",
+    "fee": 38775,
+    "tier": 2,
+    "university_link": "https://www.houstonuniversityoftexas.edu"
+  },
+  {
+    "university_name": "San Antonio University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "San Antonio",
+    "fee": 26533,
+    "tier": 3,
+    "university_link": "https://www.sanantoniouniversityoftexas.edu"
+  },
+  {
+    "university_name": "Dallas University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Dallas",
+    "fee": 20881,
+    "tier": 3,
+    "university_link": "https://www.dallasuniversityoftexas.edu"
+  },
+  {
+    "university_name": "Austin University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Austin",
+    "fee": 28586,
+    "tier": 2,
+    "university_link": "https://www.austinuniversityoftexas.edu"
+  },
+  {
+    "university_name": "Fort Worth University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "Fort Worth",
+    "fee": 32449,
+    "tier": 2,
+    "university_link": "https://www.fortworthuniversityoftexas.edu"
+  },
+  {
+    "university_name": "El Paso University of Texas",
+    "country": "US",
+    "state": "Texas",
+    "area": "El Paso",
+    "fee": 42782,
+    "tier": 3,
+    "university_link": "https://www.elpasouniversityoftexas.edu"
+  },
+  {
+    "university_name": "New York State University",
+    "country": "US",
+    "state": "New York",
+    "area": "Syracuse",
+    "fee": 30443,
+    "tier": 2,
+    "university_link": "https://www.newyorkstateuniversity.edu"
+  },
+  {
+    "university_name": "New York Institute of Technology",
+    "country": "US",
+    "state": "New York",
+    "area": "New York City",
+    "fee": 23015,
+    "tier": 3,
+    "university_link": "http://www.nyit.edu/"
+  },
+  {
+    "university_name": "New York College",
+    "country": "US",
+    "state": "New York",
+    "area": "Syracuse",
+    "fee": 31391,
+    "tier": 2,
+    "university_link": "https://www.newyorkcollege.edu"
+  },
+  {
+    "university_name": "New York Polytechnic University",
+    "country": "US",
+    "state": "New York",
+    "area": "Buffalo",
+    "fee": 58814,
+    "tier": 1,
+    "university_link": "https://www.newyorkpolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "New York A&M University",
+    "country": "US",
+    "state": "New York",
+    "area": "Buffalo",
+    "fee": 28973,
+    "tier": 3,
+    "university_link": "https://www.newyorkamuniversity.edu"
+  },
+  {
+    "university_name": "New York Tech",
+    "country": "US",
+    "state": "New York",
+    "area": "Rochester",
+    "fee": 34377,
+    "tier": 3,
+    "university_link": "https://www.newyorktech.edu"
+  },
+  {
+    "university_name": "New York Wesleyan University",
+    "country": "US",
+    "state": "New York",
+    "area": "Rochester",
+    "fee": 43612,
+    "tier": 3,
+    "university_link": "https://www.newyorkwesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Albany",
+    "fee": 21361,
+    "tier": 3,
+    "university_link": "https://www.universityofnewyork.edu"
+  },
+  {
+    "university_name": "State College of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Rochester",
+    "fee": 24458,
+    "tier": 2,
+    "university_link": "https://www.statecollegeofnewyork.edu"
+  },
+  {
+    "university_name": "Institute of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Yonkers",
+    "fee": 24801,
+    "tier": 2,
+    "university_link": "https://www.instituteofnewyork.edu"
+  },
+  {
+    "university_name": "Northern New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Rochester",
+    "fee": 39753,
+    "tier": 3,
+    "university_link": "https://www.northernnewyork.edu"
+  },
+  {
+    "university_name": "Southern New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Albany",
+    "fee": 29511,
+    "tier": 2,
+    "university_link": "https://www.southernnewyork.edu"
+  },
+  {
+    "university_name": "Eastern New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Syracuse",
+    "fee": 43255,
+    "tier": 2,
+    "university_link": "https://www.easternnewyork.edu"
+  },
+  {
+    "university_name": "Western New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Buffalo",
+    "fee": 40780,
+    "tier": 1,
+    "university_link": "https://www.westernnewyork.edu"
+  },
+  {
+    "university_name": "Central New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Buffalo",
+    "fee": 40569,
+    "tier": 2,
+    "university_link": "https://www.centralnewyork.edu"
+  },
+  {
+    "university_name": "New York City University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "New York City",
+    "fee": 26597,
+    "tier": 2,
+    "university_link": "https://www.newyorkcityuniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Buffalo University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Buffalo",
+    "fee": 23680,
+    "tier": 2,
+    "university_link": "https://www.buffalouniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Rochester University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Rochester",
+    "fee": 27144,
+    "tier": 3,
+    "university_link": "https://www.rochesteruniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Yonkers University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Yonkers",
+    "fee": 38970,
+    "tier": 3,
+    "university_link": "https://www.yonkersuniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Syracuse University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Syracuse",
+    "fee": 37676,
+    "tier": 2,
+    "university_link": "https://www.syracuseuniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Albany University of New York",
+    "country": "US",
+    "state": "New York",
+    "area": "Albany",
+    "fee": 22292,
+    "tier": 3,
+    "university_link": "https://www.albanyuniversityofnewyork.edu"
+  },
+  {
+    "university_name": "Florida State University",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tampa",
+    "fee": 44580,
+    "tier": 1,
+    "university_link": "http://www.fsu.edu/"
+  },
+  {
+    "university_name": "Florida University",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tampa",
+    "fee": 20361,
+    "tier": 3,
+    "university_link": "https://www.floridauniversity.edu"
+  },
+  {
+    "university_name": "Florida Institute of Technology",
+    "country": "US",
+    "state": "Florida",
+    "area": "Jacksonville",
+    "fee": 34180,
+    "tier": 3,
+    "university_link": "http://www.fit.edu/"
+  },
+  {
+    "university_name": "Florida College",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tallahassee",
+    "fee": 37860,
+    "tier": 3,
+    "university_link": "https://www.floridacollege.edu"
+  },
+  {
+    "university_name": "Florida Polytechnic University",
+    "country": "US",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 36515,
+    "tier": 3,
+    "university_link": "https://floridapoly.edu/"
+  },
+  {
+    "university_name": "Florida A&M University",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tallahassee",
+    "fee": 39799,
+    "tier": 3,
+    "university_link": "https://www.floridaamuniversity.edu"
+  },
+  {
+    "university_name": "Florida Tech",
+    "country": "US",
+    "state": "Florida",
+    "area": "Miami",
+    "fee": 32747,
+    "tier": 2,
+    "university_link": "https://www.floridatech.edu"
+  },
+  {
+    "university_name": "Florida Wesleyan University",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tampa",
+    "fee": 35505,
+    "tier": 2,
+    "university_link": "https://www.floridawesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tallahassee",
+    "fee": 39175,
+    "tier": 1,
+    "university_link": "http://www.ufl.edu/"
+  },
+  {
+    "university_name": "State College of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 37117,
+    "tier": 3,
+    "university_link": "https://www.statecollegeofflorida.edu"
+  },
+  {
+    "university_name": "Institute of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 22054,
+    "tier": 3,
+    "university_link": "https://www.instituteofflorida.edu"
+  },
+  {
+    "university_name": "Northern Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Miami",
+    "fee": 21948,
+    "tier": 3,
+    "university_link": "https://www.northernflorida.edu"
+  },
+  {
+    "university_name": "Southern Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tampa",
+    "fee": 29516,
+    "tier": 2,
+    "university_link": "https://www.southernflorida.edu"
+  },
+  {
+    "university_name": "Eastern Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Jacksonville",
+    "fee": 44308,
+    "tier": 3,
+    "university_link": "https://www.easternflorida.edu"
+  },
+  {
+    "university_name": "Western Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 30266,
+    "tier": 2,
+    "university_link": "https://www.westernflorida.edu"
+  },
+  {
+    "university_name": "Central Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tallahassee",
+    "fee": 41085,
+    "tier": 2,
+    "university_link": "https://www.centralflorida.edu"
+  },
+  {
+    "university_name": "Jacksonville University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Jacksonville",
+    "fee": 42985,
+    "tier": 3,
+    "university_link": "https://www.jacksonvilleuniversityofflorida.edu"
+  },
+  {
+    "university_name": "Miami University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Miami",
+    "fee": 42489,
+    "tier": 2,
+    "university_link": "https://www.miamiuniversityofflorida.edu"
+  },
+  {
+    "university_name": "Tampa University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tampa",
+    "fee": 28154,
+    "tier": 3,
+    "university_link": "https://www.tampauniversityofflorida.edu"
+  },
+  {
+    "university_name": "Orlando University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Orlando",
+    "fee": 50072,
+    "tier": 1,
+    "university_link": "https://www.orlandouniversityofflorida.edu"
+  },
+  {
+    "university_name": "St. Petersburg University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "St. Petersburg",
+    "fee": 21202,
+    "tier": 2,
+    "university_link": "https://www.stpetersburguniversityofflorida.edu"
+  },
+  {
+    "university_name": "Tallahassee University of Florida",
+    "country": "US",
+    "state": "Florida",
+    "area": "Tallahassee",
+    "fee": 22207,
+    "tier": 2,
+    "university_link": "https://www.tallahasseeuniversityofflorida.edu"
+  },
+  {
+    "university_name": "Illinois State University",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Chicago",
+    "fee": 36435,
+    "tier": 3,
+    "university_link": "http://www.illinoisstate.edu/"
+  },
+  {
+    "university_name": "Illinois University",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Springfield",
+    "fee": 21874,
+    "tier": 3,
+    "university_link": "https://www.illinoisuniversity.edu"
+  },
+  {
+    "university_name": "Illinois Institute of Technology",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Springfield",
+    "fee": 37772,
+    "tier": 1,
+    "university_link": "http://www.iit.edu/"
+  },
+  {
+    "university_name": "Illinois College",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 24881,
+    "tier": 3,
+    "university_link": "https://www.illinoiscollege.edu"
+  },
+  {
+    "university_name": "Illinois Polytechnic University",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Springfield",
+    "fee": 29124,
+    "tier": 2,
+    "university_link": "https://www.illinoispolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Illinois A&M University",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Chicago",
+    "fee": 56140,
+    "tier": 1,
+    "university_link": "https://www.illinoisamuniversity.edu"
+  },
+  {
+    "university_name": "Illinois Tech",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Chicago",
+    "fee": 22922,
+    "tier": 2,
+    "university_link": "https://www.illinoistech.edu"
+  },
+  {
+    "university_name": "Illinois Wesleyan University",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 34251,
+    "tier": 2,
+    "university_link": "https://www.iwu.edu/"
+  },
+  {
+    "university_name": "University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 37740,
+    "tier": 2,
+    "university_link": "https://www.universityofillinois.edu"
+  },
+  {
+    "university_name": "State College of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Springfield",
+    "fee": 44331,
+    "tier": 3,
+    "university_link": "https://www.statecollegeofillinois.edu"
+  },
+  {
+    "university_name": "Institute of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Joliet",
+    "fee": 43606,
+    "tier": 3,
+    "university_link": "https://www.instituteofillinois.edu"
+  },
+  {
+    "university_name": "Northern Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Joliet",
+    "fee": 23280,
+    "tier": 2,
+    "university_link": "https://www.northernillinois.edu"
+  },
+  {
+    "university_name": "Southern Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Chicago",
+    "fee": 37819,
+    "tier": 3,
+    "university_link": "https://www.southernillinois.edu"
+  },
+  {
+    "university_name": "Eastern Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 43116,
+    "tier": 3,
+    "university_link": "https://www.easternillinois.edu"
+  },
+  {
+    "university_name": "Western Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Aurora",
+    "fee": 29320,
+    "tier": 3,
+    "university_link": "https://www.westernillinois.edu"
+  },
+  {
+    "university_name": "Central Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 31693,
+    "tier": 3,
+    "university_link": "https://www.centralillinois.edu"
+  },
+  {
+    "university_name": "Chicago University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Chicago",
+    "fee": 23537,
+    "tier": 3,
+    "university_link": "https://www.chicagouniversityofillinois.edu"
+  },
+  {
+    "university_name": "Aurora University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Aurora",
+    "fee": 22215,
+    "tier": 2,
+    "university_link": "https://www.aurorauniversityofillinois.edu"
+  },
+  {
+    "university_name": "Naperville University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Naperville",
+    "fee": 24878,
+    "tier": 2,
+    "university_link": "https://www.napervilleuniversityofillinois.edu"
+  },
+  {
+    "university_name": "Joliet University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Joliet",
+    "fee": 56223,
+    "tier": 1,
+    "university_link": "https://www.jolietuniversityofillinois.edu"
+  },
+  {
+    "university_name": "Springfield University of Illinois",
+    "country": "US",
+    "state": "Illinois",
+    "area": "Springfield",
+    "fee": 33444,
+    "tier": 3,
+    "university_link": "https://www.springfielduniversityofillinois.edu"
+  },
+  {
+    "university_name": "Pennsylvania State University",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 54094,
+    "tier": 1,
+    "university_link": "http://www.psu.edu/"
+  },
+  {
+    "university_name": "Pennsylvania University",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Philadelphia",
+    "fee": 39450,
+    "tier": 3,
+    "university_link": "https://www.pennsylvaniauniversity.edu"
+  },
+  {
+    "university_name": "Pennsylvania Institute of Technology",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 38556,
+    "tier": 2,
+    "university_link": "http://www.pit.edu"
+  },
+  {
+    "university_name": "Pennsylvania College",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Allentown",
+    "fee": 36866,
+    "tier": 3,
+    "university_link": "https://www.pennsylvaniacollege.edu"
+  },
+  {
+    "university_name": "Pennsylvania Polytechnic University",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 31864,
+    "tier": 3,
+    "university_link": "https://www.pennsylvaniapolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Pennsylvania A&M University",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 44071,
+    "tier": 1,
+    "university_link": "https://www.pennsylvaniaamuniversity.edu"
+  },
+  {
+    "university_name": "Pennsylvania Tech",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Harrisburg",
+    "fee": 39619,
+    "tier": 1,
+    "university_link": "https://www.pennsylvaniatech.edu"
+  },
+  {
+    "university_name": "Pennsylvania Wesleyan University",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 22499,
+    "tier": 3,
+    "university_link": "https://www.pennsylvaniawesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Allentown",
+    "fee": 30891,
+    "tier": 3,
+    "university_link": "http://www.upenn.edu/"
+  },
+  {
+    "university_name": "State College of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 55140,
+    "tier": 1,
+    "university_link": "https://www.statecollegeofpennsylvania.edu"
+  },
+  {
+    "university_name": "Institute of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 37420,
+    "tier": 2,
+    "university_link": "https://www.instituteofpennsylvania.edu"
+  },
+  {
+    "university_name": "Northern Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Erie",
+    "fee": 21359,
+    "tier": 2,
+    "university_link": "https://www.northernpennsylvania.edu"
+  },
+  {
+    "university_name": "Southern Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Harrisburg",
+    "fee": 33820,
+    "tier": 2,
+    "university_link": "https://www.southernpennsylvania.edu"
+  },
+  {
+    "university_name": "Eastern Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 41089,
+    "tier": 3,
+    "university_link": "https://www.easternpennsylvania.edu"
+  },
+  {
+    "university_name": "Western Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 26730,
+    "tier": 2,
+    "university_link": "https://www.westernpennsylvania.edu"
+  },
+  {
+    "university_name": "Central Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Allentown",
+    "fee": 24257,
+    "tier": 2,
+    "university_link": "https://www.centralpennsylvania.edu"
+  },
+  {
+    "university_name": "Philadelphia University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Philadelphia",
+    "fee": 30558,
+    "tier": 3,
+    "university_link": "https://www.philadelphiauniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Pittsburgh University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Pittsburgh",
+    "fee": 32874,
+    "tier": 2,
+    "university_link": "https://www.pittsburghuniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Allentown University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Allentown",
+    "fee": 25871,
+    "tier": 3,
+    "university_link": "https://www.allentownuniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Erie University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Erie",
+    "fee": 34925,
+    "tier": 2,
+    "university_link": "https://www.erieuniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Reading University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Reading",
+    "fee": 22907,
+    "tier": 3,
+    "university_link": "https://www.readinguniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Harrisburg University of Pennsylvania",
+    "country": "US",
+    "state": "Pennsylvania",
+    "area": "Harrisburg",
+    "fee": 21731,
+    "tier": 2,
+    "university_link": "https://www.harrisburguniversityofpennsylvania.edu"
+  },
+  {
+    "university_name": "Ohio State University",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cincinnati",
+    "fee": 43249,
+    "tier": 2,
+    "university_link": "https://www.ohiostateuniversity.edu"
+  },
+  {
+    "university_name": "Ohio University",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Dayton",
+    "fee": 44604,
+    "tier": 2,
+    "university_link": "http://www.ohio.edu/"
+  },
+  {
+    "university_name": "Ohio Institute of Technology",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cleveland",
+    "fee": 38370,
+    "tier": 2,
+    "university_link": "https://www.ohioinstituteoftechnology.edu"
+  },
+  {
+    "university_name": "Ohio College",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cleveland",
+    "fee": 54303,
+    "tier": 1,
+    "university_link": "https://www.ohiocollege.edu"
+  },
+  {
+    "university_name": "Ohio Polytechnic University",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Columbus",
+    "fee": 23635,
+    "tier": 3,
+    "university_link": "https://www.ohiopolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Ohio A&M University",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cleveland",
+    "fee": 32361,
+    "tier": 2,
+    "university_link": "https://www.ohioamuniversity.edu"
+  },
+  {
+    "university_name": "Ohio Tech",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Columbus",
+    "fee": 33879,
+    "tier": 2,
+    "university_link": "https://www.ohiotech.edu"
+  },
+  {
+    "university_name": "Ohio Wesleyan University",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cincinnati",
+    "fee": 29961,
+    "tier": 2,
+    "university_link": "http://www.owu.edu/"
+  },
+  {
+    "university_name": "University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Columbus",
+    "fee": 26826,
+    "tier": 3,
+    "university_link": "https://www.universityofohio.edu"
+  },
+  {
+    "university_name": "State College of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Akron",
+    "fee": 20275,
+    "tier": 2,
+    "university_link": "https://www.statecollegeofohio.edu"
+  },
+  {
+    "university_name": "Institute of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Toledo",
+    "fee": 26387,
+    "tier": 3,
+    "university_link": "https://www.instituteofohio.edu"
+  },
+  {
+    "university_name": "Northern Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Toledo",
+    "fee": 28516,
+    "tier": 2,
+    "university_link": "https://www.northernohio.edu"
+  },
+  {
+    "university_name": "Southern Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cincinnati",
+    "fee": 20610,
+    "tier": 2,
+    "university_link": "https://www.southernohio.edu"
+  },
+  {
+    "university_name": "Eastern Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Columbus",
+    "fee": 44505,
+    "tier": 3,
+    "university_link": "https://www.easternohio.edu"
+  },
+  {
+    "university_name": "Western Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Toledo",
+    "fee": 35465,
+    "tier": 2,
+    "university_link": "https://www.westernohio.edu"
+  },
+  {
+    "university_name": "Central Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cincinnati",
+    "fee": 41533,
+    "tier": 3,
+    "university_link": "https://www.centralohio.edu"
+  },
+  {
+    "university_name": "Columbus University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Columbus",
+    "fee": 21642,
+    "tier": 2,
+    "university_link": "https://www.columbusuniversityofohio.edu"
+  },
+  {
+    "university_name": "Cleveland University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cleveland",
+    "fee": 36757,
+    "tier": 3,
+    "university_link": "https://www.clevelanduniversityofohio.edu"
+  },
+  {
+    "university_name": "Cincinnati University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Cincinnati",
+    "fee": 48263,
+    "tier": 1,
+    "university_link": "https://www.cincinnatiuniversityofohio.edu"
+  },
+  {
+    "university_name": "Toledo University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Toledo",
+    "fee": 47598,
+    "tier": 1,
+    "university_link": "https://www.toledouniversityofohio.edu"
+  },
+  {
+    "university_name": "Akron University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Akron",
+    "fee": 37016,
+    "tier": 2,
+    "university_link": "https://www.akronuniversityofohio.edu"
+  },
+  {
+    "university_name": "Dayton University of Ohio",
+    "country": "US",
+    "state": "Ohio",
+    "area": "Dayton",
+    "fee": 31985,
+    "tier": 3,
+    "university_link": "https://www.daytonuniversityofohio.edu"
+  },
+  {
+    "university_name": "Georgia State University",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 35818,
+    "tier": 2,
+    "university_link": "http://www.gsu.edu/"
+  },
+  {
+    "university_name": "Georgia University",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Columbus",
+    "fee": 23685,
+    "tier": 3,
+    "university_link": "https://www.georgiauniversity.edu"
+  },
+  {
+    "university_name": "Georgia College",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 40582,
+    "tier": 3,
+    "university_link": "http://www.gcsu.edu/"
+  },
+  {
+    "university_name": "Georgia Polytechnic University",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 34519,
+    "tier": 3,
+    "university_link": "https://www.georgiapolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Georgia A&M University",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Atlanta",
+    "fee": 21040,
+    "tier": 2,
+    "university_link": "https://www.georgiaamuniversity.edu"
+  },
+  {
+    "university_name": "Georgia Tech",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 24536,
+    "tier": 3,
+    "university_link": "https://www.georgiatech.edu"
+  },
+  {
+    "university_name": "Georgia Wesleyan University",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 34426,
+    "tier": 2,
+    "university_link": "https://www.georgiawesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Macon",
+    "fee": 33604,
+    "tier": 2,
+    "university_link": "http://www.uga.edu/"
+  },
+  {
+    "university_name": "State College of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Columbus",
+    "fee": 28180,
+    "tier": 3,
+    "university_link": "https://www.statecollegeofgeorgia.edu"
+  },
+  {
+    "university_name": "Institute of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 25582,
+    "tier": 3,
+    "university_link": "https://www.instituteofgeorgia.edu"
+  },
+  {
+    "university_name": "Northern Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Savannah",
+    "fee": 21551,
+    "tier": 3,
+    "university_link": "https://www.northerngeorgia.edu"
+  },
+  {
+    "university_name": "Southern Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Columbus",
+    "fee": 22451,
+    "tier": 3,
+    "university_link": "https://www.southerngeorgia.edu"
+  },
+  {
+    "university_name": "Eastern Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Atlanta",
+    "fee": 37792,
+    "tier": 2,
+    "university_link": "https://www.easterngeorgia.edu"
+  },
+  {
+    "university_name": "Western Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 38562,
+    "tier": 3,
+    "university_link": "https://www.westerngeorgia.edu"
+  },
+  {
+    "university_name": "Central Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Columbus",
+    "fee": 44506,
+    "tier": 2,
+    "university_link": "https://www.centralgeorgia.edu"
+  },
+  {
+    "university_name": "Atlanta University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Atlanta",
+    "fee": 24177,
+    "tier": 3,
+    "university_link": "https://www.atlantauniversityofgeorgia.edu"
+  },
+  {
+    "university_name": "Augusta University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Augusta",
+    "fee": 43933,
+    "tier": 3,
+    "university_link": "https://www.augustauniversityofgeorgia.edu"
+  },
+  {
+    "university_name": "Columbus University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Columbus",
+    "fee": 33466,
+    "tier": 3,
+    "university_link": "https://www.columbusuniversityofgeorgia.edu"
+  },
+  {
+    "university_name": "Macon University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Macon",
+    "fee": 36327,
+    "tier": 2,
+    "university_link": "https://www.maconuniversityofgeorgia.edu"
+  },
+  {
+    "university_name": "Savannah University of Georgia",
+    "country": "US",
+    "state": "Georgia",
+    "area": "Savannah",
+    "fee": 25386,
+    "tier": 2,
+    "university_link": "https://www.savannahuniversityofgeorgia.edu"
+  },
+  {
+    "university_name": "North Carolina State University",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Charlotte",
+    "fee": 21283,
+    "tier": 3,
+    "university_link": "http://www.ncsu.edu/"
+  },
+  {
+    "university_name": "North Carolina University",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Charlotte",
+    "fee": 24077,
+    "tier": 3,
+    "university_link": "https://www.northcarolinauniversity.edu"
+  },
+  {
+    "university_name": "North Carolina Institute of Technology",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Durham",
+    "fee": 28848,
+    "tier": 2,
+    "university_link": "https://www.northcarolinainstituteoftechnology.edu"
+  },
+  {
+    "university_name": "North Carolina College",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Greensboro",
+    "fee": 34597,
+    "tier": 2,
+    "university_link": "https://www.northcarolinacollege.edu"
+  },
+  {
+    "university_name": "North Carolina Polytechnic University",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 26468,
+    "tier": 2,
+    "university_link": "https://www.northcarolinapolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "North Carolina A&M University",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Durham",
+    "fee": 44130,
+    "tier": 3,
+    "university_link": "https://www.northcarolinaamuniversity.edu"
+  },
+  {
+    "university_name": "North Carolina Tech",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 28401,
+    "tier": 3,
+    "university_link": "https://www.northcarolinatech.edu"
+  },
+  {
+    "university_name": "North Carolina Wesleyan University",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Durham",
+    "fee": 30106,
+    "tier": 3,
+    "university_link": "https://www.northcarolinawesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Winston-Salem",
+    "fee": 26300,
+    "tier": 2,
+    "university_link": "https://www.universityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "State College of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Greensboro",
+    "fee": 42944,
+    "tier": 3,
+    "university_link": "https://www.statecollegeofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Institute of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Durham",
+    "fee": 37147,
+    "tier": 3,
+    "university_link": "https://www.instituteofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Northern North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 27815,
+    "tier": 3,
+    "university_link": "https://www.northernnorthcarolina.edu"
+  },
+  {
+    "university_name": "Southern North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Winston-Salem",
+    "fee": 34333,
+    "tier": 3,
+    "university_link": "https://www.southernnorthcarolina.edu"
+  },
+  {
+    "university_name": "Eastern North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 25227,
+    "tier": 2,
+    "university_link": "https://www.easternnorthcarolina.edu"
+  },
+  {
+    "university_name": "Western North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 51107,
+    "tier": 1,
+    "university_link": "https://www.westernnorthcarolina.edu"
+  },
+  {
+    "university_name": "Central North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Greensboro",
+    "fee": 44279,
+    "tier": 2,
+    "university_link": "https://www.centralnorthcarolina.edu"
+  },
+  {
+    "university_name": "Charlotte University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Charlotte",
+    "fee": 29796,
+    "tier": 3,
+    "university_link": "https://www.charlotteuniversityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Raleigh University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Raleigh",
+    "fee": 27708,
+    "tier": 3,
+    "university_link": "https://www.raleighuniversityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Greensboro University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Greensboro",
+    "fee": 21855,
+    "tier": 2,
+    "university_link": "https://www.greensborouniversityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Durham University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Durham",
+    "fee": 27569,
+    "tier": 3,
+    "university_link": "https://www.durhamuniversityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Winston-Salem University of North Carolina",
+    "country": "US",
+    "state": "North Carolina",
+    "area": "Winston-Salem",
+    "fee": 41277,
+    "tier": 3,
+    "university_link": "https://www.winstonsalemuniversityofnorthcarolina.edu"
+  },
+  {
+    "university_name": "Michigan State University",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Sterling Heights",
+    "fee": 20592,
+    "tier": 2,
+    "university_link": "http://www.msu.edu/"
+  },
+  {
+    "university_name": "Michigan University",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Grand Rapids",
+    "fee": 43291,
+    "tier": 2,
+    "university_link": "https://www.michiganuniversity.edu"
+  },
+  {
+    "university_name": "Michigan Institute of Technology",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Ann Arbor",
+    "fee": 29053,
+    "tier": 2,
+    "university_link": "https://www.michiganinstituteoftechnology.edu"
+  },
+  {
+    "university_name": "Michigan College",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Ann Arbor",
+    "fee": 37786,
+    "tier": 3,
+    "university_link": "https://www.michigancollege.edu"
+  },
+  {
+    "university_name": "Michigan Polytechnic University",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Grand Rapids",
+    "fee": 37323,
+    "tier": 1,
+    "university_link": "https://www.michiganpolytechnicuniversity.edu"
+  },
+  {
+    "university_name": "Michigan A&M University",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Warren",
+    "fee": 44062,
+    "tier": 3,
+    "university_link": "https://www.michiganamuniversity.edu"
+  },
+  {
+    "university_name": "Michigan Tech",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Sterling Heights",
+    "fee": 30458,
+    "tier": 2,
+    "university_link": "https://www.michigantech.edu"
+  },
+  {
+    "university_name": "Michigan Wesleyan University",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Lansing",
+    "fee": 33990,
+    "tier": 3,
+    "university_link": "https://www.michiganwesleyanuniversity.edu"
+  },
+  {
+    "university_name": "University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Lansing",
+    "fee": 43093,
+    "tier": 3,
+    "university_link": "https://www.universityofmichigan.edu"
+  },
+  {
+    "university_name": "State College of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Lansing",
+    "fee": 38215,
+    "tier": 2,
+    "university_link": "https://www.statecollegeofmichigan.edu"
+  },
+  {
+    "university_name": "Institute of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Ann Arbor",
+    "fee": 38593,
+    "tier": 2,
+    "university_link": "https://www.instituteofmichigan.edu"
+  },
+  {
+    "university_name": "Northern Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Warren",
+    "fee": 31906,
+    "tier": 3,
+    "university_link": "https://www.northernmichigan.edu"
+  },
+  {
+    "university_name": "Southern Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Grand Rapids",
+    "fee": 31743,
+    "tier": 2,
+    "university_link": "https://www.southernmichigan.edu"
+  },
+  {
+    "university_name": "Eastern Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Detroit",
+    "fee": 40459,
+    "tier": 2,
+    "university_link": "https://www.easternmichigan.edu"
+  },
+  {
+    "university_name": "Western Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Warren",
+    "fee": 30117,
+    "tier": 3,
+    "university_link": "https://www.westernmichigan.edu"
+  },
+  {
+    "university_name": "Central Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Sterling Heights",
+    "fee": 36103,
+    "tier": 2,
+    "university_link": "https://www.centralmichigan.edu"
+  },
+  {
+    "university_name": "Detroit University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Detroit",
+    "fee": 30208,
+    "tier": 3,
+    "university_link": "https://www.detroituniversityofmichigan.edu"
+  },
+  {
+    "university_name": "Grand Rapids University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Grand Rapids",
+    "fee": 34471,
+    "tier": 3,
+    "university_link": "https://www.grandrapidsuniversityofmichigan.edu"
+  },
+  {
+    "university_name": "Warren University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Warren",
+    "fee": 20652,
+    "tier": 3,
+    "university_link": "https://www.warrenuniversityofmichigan.edu"
+  },
+  {
+    "university_name": "Sterling Heights University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Sterling Heights",
+    "fee": 23849,
+    "tier": 3,
+    "university_link": "https://www.sterlingheightsuniversityofmichigan.edu"
+  },
+  {
+    "university_name": "Ann Arbor University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Ann Arbor",
+    "fee": 23914,
+    "tier": 3,
+    "university_link": "https://www.annarboruniversityofmichigan.edu"
+  },
+  {
+    "university_name": "Lansing University of Michigan",
+    "country": "US",
+    "state": "Michigan",
+    "area": "Lansing",
+    "fee": 37034,
+    "tier": 3,
+    "university_link": "https://www.lansinguniversityofmichigan.edu"
+  },
+  {
+    "university_name": "West Herts College",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 21260,
+    "tier": 3,
+    "university_link": "https://westherts.ac.uk"
+  },
+  {
+    "university_name": "Royal Holloway University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 17852,
+    "tier": 3,
+    "university_link": "https://rhul.ac.uk"
+  },
+  {
+    "university_name": "University of Portsmouth",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 32813,
+    "tier": 1,
+    "university_link": "http://www.port.ac.uk/"
+  },
+  {
+    "university_name": "Futureworks",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 17838,
+    "tier": 2,
+    "university_link": "https://futureworks.ac.uk/"
+  },
+  {
+    "university_name": "University of the Arts London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 29661,
+    "tier": 2,
+    "university_link": "https://www.arts.ac.uk"
+  },
+  {
+    "university_name": "University of Aberdeen",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 28010,
+    "tier": 1,
+    "university_link": "http://www.abdn.ac.uk/"
+  },
+  {
+    "university_name": "Aberystwyth University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 22608,
+    "tier": 3,
+    "university_link": "https://aber.ac.uk/"
+  },
+  {
+    "university_name": "University of Abertay Dundee",
+    "country": "UK",
+    "state": "England",
+    "area": "Manchester",
+    "fee": 15622,
+    "tier": 3,
+    "university_link": "http://www.abertay.ac.uk/"
+  },
+  {
+    "university_name": "American InterContinental University - London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 24145,
+    "tier": 3,
+    "university_link": "http://www.aiuniv.edu/"
+  },
+  {
+    "university_name": "Anglia Ruskin University",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 24807,
+    "tier": 2,
+    "university_link": "http://www.anglia.ac.uk/"
+  },
+  {
+    "university_name": "Aston University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 16429,
+    "tier": 3,
+    "university_link": "http://www.aston.ac.uk/"
+  },
+  {
+    "university_name": "The American University in London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 19336,
+    "tier": 2,
+    "university_link": "http://www.aul.edu/"
+  },
+  {
+    "university_name": "University of Wales, Bangor",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 27173,
+    "tier": 2,
+    "university_link": "http://www.bangor.ac.uk/"
+  },
+  {
+    "university_name": "University of Bath",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 20981,
+    "tier": 2,
+    "university_link": "https://bath.ac.uk"
+  },
+  {
+    "university_name": "Bath Spa University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 25150,
+    "tier": 2,
+    "university_link": "https://www.bathspa.ac.uk/"
+  },
+  {
+    "university_name": "Birkbeck College, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 20408,
+    "tier": 3,
+    "university_link": "http://www.bbk.ac.uk/"
+  },
+  {
+    "university_name": "British College of Osteopathic Medicine",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 19156,
+    "tier": 2,
+    "university_link": "http://www.bcom.ac.uk/"
+  },
+  {
+    "university_name": "Birmingham City University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 25628,
+    "tier": 2,
+    "university_link": "http://www.bcu.ac.uk/"
+  },
+  {
+    "university_name": "University of Bedfordshire",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 17837,
+    "tier": 2,
+    "university_link": "http://www.beds.ac.uk/"
+  },
+  {
+    "university_name": "University of Birmingham",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 17755,
+    "tier": 2,
+    "university_link": "http://www.bham.ac.uk/"
+  },
+  {
+    "university_name": "University of Bolton",
+    "country": "UK",
+    "state": "England",
+    "area": "Cambridge",
+    "fee": 16464,
+    "tier": 3,
+    "university_link": "http://www.bolton.ac.uk/"
+  },
+  {
+    "university_name": "Bournemouth University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 28564,
+    "tier": 2,
+    "university_link": "http://www.bournemouth.ac.uk/"
+  },
+  {
+    "university_name": "University of Bradford",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 24466,
+    "tier": 2,
+    "university_link": "http://www.brad.ac.uk/"
+  },
+  {
+    "university_name": "London School of Jewish Studies",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 22020,
+    "tier": 2,
+    "university_link": "http://www.brijnet.org/lsjs/"
+  },
+  {
+    "university_name": "University of Bristol",
+    "country": "UK",
+    "state": "England",
+    "area": "Bristol",
+    "fee": 18383,
+    "tier": 3,
+    "university_link": "https://www.bristol.ac.uk/"
+  },
+  {
+    "university_name": "Oxford Brookes University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 16173,
+    "tier": 2,
+    "university_link": "http://www.brookes.ac.uk/"
+  },
+  {
+    "university_name": "Brunel University Uxbridge",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 22247,
+    "tier": 3,
+    "university_link": "http://www.brunel.ac.uk/"
+  },
+  {
+    "university_name": "University of Brighton",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 25518,
+    "tier": 3,
+    "university_link": "http://www.bton.ac.uk/"
+  },
+  {
+    "university_name": "University of Buckingham",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 23224,
+    "tier": 3,
+    "university_link": "http://www.buck.ac.uk/"
+  },
+  {
+    "university_name": "Buckinghamshire New University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 27148,
+    "tier": 3,
+    "university_link": "http://www.bucks.ac.uk/"
+  },
+  {
+    "university_name": "University of Cambridge",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 21790,
+    "tier": 2,
+    "university_link": "http://www.cam.ac.uk/"
+  },
+  {
+    "university_name": "Camberwell College of Arts",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 17997,
+    "tier": 2,
+    "university_link": "http://www.camb.linst.ac.uk/"
+  },
+  {
+    "university_name": "Canterbury Christ Church University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 27881,
+    "tier": 3,
+    "university_link": "http://www.canterbury.ac.uk/"
+  },
+  {
+    "university_name": "Cardiff University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 24646,
+    "tier": 3,
+    "university_link": "http://www.cardiff.ac.uk/"
+  },
+  {
+    "university_name": "Chelsea College of Art and Design",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 23583,
+    "tier": 2,
+    "university_link": "http://www.chelsea.linst.ac.uk/"
+  },
+  {
+    "university_name": "University of Chester",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 24776,
+    "tier": 2,
+    "university_link": "http://www.chester.ac.uk/"
+  },
+  {
+    "university_name": "City University",
+    "country": "UK",
+    "state": "England",
+    "area": "Leeds",
+    "fee": 15237,
+    "tier": 3,
+    "university_link": "http://www.city.ac.uk/"
+  },
+  {
+    "university_name": "Courtauld Institute of Art, University of London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 20478,
+    "tier": 2,
+    "university_link": "http://www.courtauld.ac.uk/"
+  },
+  {
+    "university_name": "Coventry University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 23707,
+    "tier": 2,
+    "university_link": "http://www.coventry.ac.uk/"
+  },
+  {
+    "university_name": "Cranfield University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 23109,
+    "tier": 2,
+    "university_link": "http://www.cranfield.ac.uk/"
+  },
+  {
+    "university_name": "Central Saint Martins College of Art & Design",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 36741,
+    "tier": 1,
+    "university_link": "http://www.csm.linst.ac.uk/"
+  },
+  {
+    "university_name": "University of Derby",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 18451,
+    "tier": 2,
+    "university_link": "http://www.derby.ac.uk/"
+  },
+  {
+    "university_name": "De Montfort University Leicester",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 24898,
+    "tier": 3,
+    "university_link": "http://www.dmu.ac.uk/"
+  },
+  {
+    "university_name": "University of Dundee",
+    "country": "UK",
+    "state": "England",
+    "area": "Bristol",
+    "fee": 27046,
+    "tier": 2,
+    "university_link": "http://www.dundee.ac.uk/"
+  },
+  {
+    "university_name": "University of Durham",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 44287,
+    "tier": 1,
+    "university_link": "http://www.dur.ac.uk/"
+  },
+  {
+    "university_name": "Edge Hill University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 24621,
+    "tier": 3,
+    "university_link": "http://www.edgehill.ac.uk/"
+  },
+  {
+    "university_name": "University of Edinburgh",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 29208,
+    "tier": 2,
+    "university_link": "http://www.ed.ac.uk/"
+  },
+  {
+    "university_name": "European School of Economics",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 23938,
+    "tier": 2,
+    "university_link": "http://www.eselondon.ac.uk/"
+  },
+  {
+    "university_name": "University of Essex",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 19873,
+    "tier": 2,
+    "university_link": "http://www.essex.ac.uk/"
+  },
+  {
+    "university_name": "University of Exeter",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 23411,
+    "tier": 3,
+    "university_link": "http://www.ex.ac.uk/"
+  },
+  {
+    "university_name": "Falmouth University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 24100,
+    "tier": 3,
+    "university_link": "http://www.falmouth.ac.uk/"
+  },
+  {
+    "university_name": "Glasgow Caledonian University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 21578,
+    "tier": 3,
+    "university_link": "http://www.gcal.ac.uk/"
+  },
+  {
+    "university_name": "University of Glasgow",
+    "country": "UK",
+    "state": "England",
+    "area": "Oxford",
+    "fee": 27833,
+    "tier": 2,
+    "university_link": "http://www.gla.ac.uk/"
+  },
+  {
+    "university_name": "University of Glamorgan",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 19272,
+    "tier": 2,
+    "university_link": "http://www.glam.ac.uk/"
+  },
+  {
+    "university_name": "University of Gloucestershire",
+    "country": "UK",
+    "state": "England",
+    "area": "Oxford",
+    "fee": 24935,
+    "tier": 2,
+    "university_link": "http://www.glos.ac.uk/"
+  },
+  {
+    "university_name": "Goldsmiths College, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 24274,
+    "tier": 2,
+    "university_link": "http://www.gold.ac.uk/"
+  },
+  {
+    "university_name": "University of Greenwich",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 21253,
+    "tier": 3,
+    "university_link": "http://www.gre.ac.uk/"
+  },
+  {
+    "university_name": "Glasgow School of Art",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 42926,
+    "tier": 1,
+    "university_link": "http://www.gsa.ac.uk/"
+  },
+  {
+    "university_name": "University of Halifax, Birmingham Campus",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 20574,
+    "tier": 3,
+    "university_link": "http://www.halifaxuni.ac/"
+  },
+  {
+    "university_name": "University of Hertfordshire",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 15466,
+    "tier": 3,
+    "university_link": "http://www.herts.ac.uk/"
+  },
+  {
+    "university_name": "Heythrop College, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 18134,
+    "tier": 2,
+    "university_link": "http://www.heythrop.ac.uk/"
+  },
+  {
+    "university_name": "Liverpool Hope University College",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 27434,
+    "tier": 3,
+    "university_link": "http://www.hope.ac.uk/"
+  },
+  {
+    "university_name": "University of Huddersfield",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 22555,
+    "tier": 3,
+    "university_link": "http://www.hud.ac.uk/"
+  },
+  {
+    "university_name": "University of Hull",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 23928,
+    "tier": 2,
+    "university_link": "http://www.hull.ac.uk/"
+  },
+  {
+    "university_name": "Huron University USA in London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 28839,
+    "tier": 3,
+    "university_link": "http://www.huron.ac.uk/"
+  },
+  {
+    "university_name": "Heriot-Watt University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 27878,
+    "tier": 3,
+    "university_link": "http://www.hw.ac.uk/"
+  },
+  {
+    "university_name": "Imperial College London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 20664,
+    "tier": 2,
+    "university_link": "http://www.imperial.ac.uk/"
+  },
+  {
+    "university_name": "ifs University College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 19477,
+    "tier": 2,
+    "university_link": "http://www.ifslearning.ac.uk/"
+  },
+  {
+    "university_name": "Institue of Historical Research, University of London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 19993,
+    "tier": 2,
+    "university_link": "http://ihr.sas.ac.uk/"
+  },
+  {
+    "university_name": "Institute of Education, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 26869,
+    "tier": 1,
+    "university_link": "http://www.ioe.ac.uk/"
+  },
+  {
+    "university_name": "International Colleges of Islamic Science",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 20524,
+    "tier": 3,
+    "university_link": "http://www.islamiccolleges.com/"
+  },
+  {
+    "university_name": "King's College London, University of London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 23677,
+    "tier": 2,
+    "university_link": "http://www.kcl.ac.uk/"
+  },
+  {
+    "university_name": "Keele University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 22807,
+    "tier": 2,
+    "university_link": "http://www.keele.ac.uk/"
+  },
+  {
+    "university_name": "Kingston University",
+    "country": "UK",
+    "state": "England",
+    "area": "Leeds",
+    "fee": 27074,
+    "tier": 2,
+    "university_link": "http://www.kingston.ac.uk/"
+  },
+  {
+    "university_name": "International Centre for Isclamic Science",
+    "country": "UK",
+    "state": "England",
+    "area": "Sheffield",
+    "fee": 22825,
+    "tier": 2,
+    "university_link": "http://www.kolieh.com/"
+  },
+  {
+    "university_name": "University of Wales, Lampeter",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 21268,
+    "tier": 2,
+    "university_link": "http://www.lamp.ac.uk/"
+  },
+  {
+    "university_name": "University of Lancaster",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 17322,
+    "tier": 3,
+    "university_link": "http://www.lancs.ac.uk/"
+  },
+  {
+    "university_name": "Loughborough University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 18420,
+    "tier": 2,
+    "university_link": "http://www.lboro.ac.uk/"
+  },
+  {
+    "university_name": "London College of Science & Technology",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 20589,
+    "tier": 2,
+    "university_link": "http://www.lcst.ac/"
+  },
+  {
+    "university_name": "University of Leicester",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 21403,
+    "tier": 2,
+    "university_link": "http://www.le.ac.uk/"
+  },
+  {
+    "university_name": "University of Leeds",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 17306,
+    "tier": 3,
+    "university_link": "http://www.leeds.ac.uk/"
+  },
+  {
+    "university_name": "London Guildhall University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 15332,
+    "tier": 3,
+    "university_link": "http://www.lgu.ac.uk/"
+  },
+  {
+    "university_name": "London Institute of Management and Technology",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 29006,
+    "tier": 3,
+    "university_link": "http://www.limt.co.uk/"
+  },
+  {
+    "university_name": "University of Lincoln",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 19020,
+    "tier": 2,
+    "university_link": "http://www.lincoln.ac.uk/"
+  },
+  {
+    "university_name": "University of Liverpool",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 23796,
+    "tier": 3,
+    "university_link": "http://www.liv.ac.uk/"
+  },
+  {
+    "university_name": "Liverpool John Moores University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 20216,
+    "tier": 3,
+    "university_link": "https://www.ljmu.ac.uk/"
+  },
+  {
+    "university_name": "Leeds Beckett University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 21114,
+    "tier": 3,
+    "university_link": "https://www.leedsbeckett.ac.uk/"
+  },
+  {
+    "university_name": "University of London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 20520,
+    "tier": 2,
+    "university_link": "https://www.london.ac.uk/"
+  },
+  {
+    "university_name": "London Metropolitan University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 15538,
+    "tier": 2,
+    "university_link": "http://www.londonmet.ac.uk/"
+  },
+  {
+    "university_name": "London School of Business & Finance",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 20957,
+    "tier": 3,
+    "university_link": "http://www.lsbf.org.uk/"
+  },
+  {
+    "university_name": "London School of Economics and Political Science, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 22960,
+    "tier": 3,
+    "university_link": "http://www.lse.ac.uk/"
+  },
+  {
+    "university_name": "London School of Hygiene & Tropical Medicine, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 17282,
+    "tier": 3,
+    "university_link": "http://www.lshtm.ac.uk/"
+  },
+  {
+    "university_name": "University of Manchester",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 25732,
+    "tier": 3,
+    "university_link": "http://www.manchester.ac.uk/"
+  },
+  {
+    "university_name": "Middlesex University - London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 43071,
+    "tier": 1,
+    "university_link": "https://www.mdx.ac.uk/"
+  },
+  {
+    "university_name": "Imperial College School of Medicine",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 19760,
+    "tier": 2,
+    "university_link": "http://www.med.ic.ac.uk/"
+  },
+  {
+    "university_name": "The Manchester Metropolitan University",
+    "country": "UK",
+    "state": "England",
+    "area": "Manchester",
+    "fee": 23689,
+    "tier": 2,
+    "university_link": "http://www.mmu.ac.uk/"
+  },
+  {
+    "university_name": "Edinburgh Napier University",
+    "country": "UK",
+    "state": "England",
+    "area": "Manchester",
+    "fee": 23591,
+    "tier": 3,
+    "university_link": "https://www.napier.ac.uk/"
+  },
+  {
+    "university_name": "Newcastle University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 29848,
+    "tier": 3,
+    "university_link": "https://www.ncl.ac.uk/"
+  },
+  {
+    "university_name": "University of Wales, Newport",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 24452,
+    "tier": 2,
+    "university_link": "http://www.newport.ac.uk/"
+  },
+  {
+    "university_name": "Newport International University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 25260,
+    "tier": 3,
+    "university_link": "http://www.niu.org.uk/"
+  },
+  {
+    "university_name": "University of Northampton",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 26454,
+    "tier": 3,
+    "university_link": "http://www.northampton.ac.uk/"
+  },
+  {
+    "university_name": "University of Nottingham",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 23859,
+    "tier": 3,
+    "university_link": "http://www.nottingham.ac.uk/"
+  },
+  {
+    "university_name": "Nottingham Trent University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 19122,
+    "tier": 2,
+    "university_link": "http://www.ntu.ac.uk/"
+  },
+  {
+    "university_name": "Open University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 27152,
+    "tier": 3,
+    "university_link": "http://www.open.ac.uk/"
+  },
+  {
+    "university_name": "University of Oxford",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 17700,
+    "tier": 3,
+    "university_link": "http://www.ox.ac.uk/"
+  },
+  {
+    "university_name": "University of Paisley",
+    "country": "UK",
+    "state": "England",
+    "area": "Newcastle",
+    "fee": 24676,
+    "tier": 2,
+    "university_link": "http://www.paisley.ac.uk/"
+  },
+  {
+    "university_name": "University of Plymouth",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 23865,
+    "tier": 2,
+    "university_link": "http://www.plymouth.ac.uk/"
+  },
+  {
+    "university_name": "Queen Mary, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 23948,
+    "tier": 2,
+    "university_link": "http://www.qmul.ac.uk/"
+  },
+  {
+    "university_name": "The Queen's University Belfast",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 21132,
+    "tier": 3,
+    "university_link": "http://www.qub.ac.uk/"
+  },
+  {
+    "university_name": "Royal Academy of Music, University of London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 15664,
+    "tier": 2,
+    "university_link": "http://www.ram.ac.uk/"
+  },
+  {
+    "university_name": "Royal College of Art",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 19692,
+    "tier": 2,
+    "university_link": "http://www.rca.ac.uk/"
+  },
+  {
+    "university_name": "Royal College of Music, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 27216,
+    "tier": 2,
+    "university_link": "http://www.rcm.ac.uk/"
+  },
+  {
+    "university_name": "University of Reading",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 27319,
+    "tier": 2,
+    "university_link": "http://www.rdg.ac.uk/"
+  },
+  {
+    "university_name": "Royal Free Hospital School of Medicine, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 25072,
+    "tier": 3,
+    "university_link": "http://www.rfhsm.ac.uk/"
+  },
+  {
+    "university_name": "The Robert Gordon University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 21758,
+    "tier": 3,
+    "university_link": "http://www.rgu.ac.uk/"
+  },
+  {
+    "university_name": "Royal Holloway and Bedford New College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 25044,
+    "tier": 2,
+    "university_link": "http://www.royalholloway.ac.uk/"
+  },
+  {
+    "university_name": "Richmond University - The American International University in London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 22876,
+    "tier": 3,
+    "university_link": "http://www.richmond.ac.uk/"
+  },
+  {
+    "university_name": "Roehampton University of Surrey",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 15792,
+    "tier": 2,
+    "university_link": "http://www.roehampton.ac.uk/"
+  },
+  {
+    "university_name": "University of Salford",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 20230,
+    "tier": 2,
+    "university_link": "http://www.salford.ac.uk/"
+  },
+  {
+    "university_name": "School of Advanced Study, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 25204,
+    "tier": 2,
+    "university_link": "http://www.sas.ac.uk/"
+  },
+  {
+    "university_name": "South Bank University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 29793,
+    "tier": 2,
+    "university_link": "http://www.sbu.ac.uk/"
+  },
+  {
+    "university_name": "Schiller International University, London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 16524,
+    "tier": 2,
+    "university_link": "http://www.schillerlondon.ac.uk/"
+  },
+  {
+    "university_name": "Stratford College London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 19061,
+    "tier": 2,
+    "university_link": "http://www.sclondon.ac/"
+  },
+  {
+    "university_name": "Saint George's Hospital Medical School, University of London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 40463,
+    "tier": 1,
+    "university_link": "http://www.sghms.ac.uk/"
+  },
+  {
+    "university_name": "The University of Sheffield",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 20535,
+    "tier": 2,
+    "university_link": "https://www.sheffield.ac.uk/"
+  },
+  {
+    "university_name": "Sheffield Hallam University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 20350,
+    "tier": 2,
+    "university_link": "http://www.shu.ac.uk/"
+  },
+  {
+    "university_name": "Swansea Metropolitan University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 23384,
+    "tier": 3,
+    "university_link": "http://www.smu.ac.uk/"
+  },
+  {
+    "university_name": "School of Oriental and African Studies, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 26688,
+    "tier": 2,
+    "university_link": "http://www.soas.ac.uk/"
+  },
+  {
+    "university_name": "Southampton Solent University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 18349,
+    "tier": 3,
+    "university_link": "http://www.solent.ac.uk/"
+  },
+  {
+    "university_name": "Sotheby\u00b4s Institute of Art - London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 27024,
+    "tier": 3,
+    "university_link": "http://www.sothebysinstitutelondon.com/"
+  },
+  {
+    "university_name": "University of Southampton",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 33754,
+    "tier": 1,
+    "university_link": "http://www.southampton.ac.uk/"
+  },
+  {
+    "university_name": "School of Slavonic and East European Studies, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 27385,
+    "tier": 2,
+    "university_link": "http://www.ssees.ac.uk/"
+  },
+  {
+    "university_name": "Staffordshire University",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 28454,
+    "tier": 3,
+    "university_link": "http://www.staffs.ac.uk/"
+  },
+  {
+    "university_name": "University of St. Andrews",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 29602,
+    "tier": 3,
+    "university_link": "https://www.st-andrews.ac.uk/"
+  },
+  {
+    "university_name": "University of Stirling",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 26565,
+    "tier": 3,
+    "university_link": "http://www.stir.ac.uk/"
+  },
+  {
+    "university_name": "St.Patrick's International College, London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 18742,
+    "tier": 2,
+    "university_link": "http://www.st-patricks.ac.uk/"
+  },
+  {
+    "university_name": "University of Strathclyde",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 31232,
+    "tier": 1,
+    "university_link": "http://www.strath.ac.uk/"
+  },
+  {
+    "university_name": "University of Sunderland",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 39292,
+    "tier": 1,
+    "university_link": "http://www.sunderland.ac.uk/"
+  },
+  {
+    "university_name": "University of Surrey",
+    "country": "UK",
+    "state": "England",
+    "area": "Leeds",
+    "fee": 16479,
+    "tier": 3,
+    "university_link": "http://www.surrey.ac.uk/"
+  },
+  {
+    "university_name": "University of Sussex",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 27002,
+    "tier": 2,
+    "university_link": "http://www.sussex.ac.uk/"
+  },
+  {
+    "university_name": "University of Wales, Swansea",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 21588,
+    "tier": 2,
+    "university_link": "http://www.swan.ac.uk/"
+  },
+  {
+    "university_name": "Trinity College of Music",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 29748,
+    "tier": 3,
+    "university_link": "http://www.tcm.ac.uk/"
+  },
+  {
+    "university_name": "University of Teesside",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Cardiff",
+    "fee": 19037,
+    "tier": 2,
+    "university_link": "http://www.tees.ac.uk/"
+  },
+  {
+    "university_name": "Trinity College Carmarthen",
+    "country": "UK",
+    "state": "England",
+    "area": "Oxford",
+    "fee": 16295,
+    "tier": 3,
+    "university_link": "http://www.trinity-cm.ac.uk/"
+  },
+  {
+    "university_name": "Thames Valley University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 25257,
+    "tier": 3,
+    "university_link": "http://www.tvu.ac.uk/"
+  },
+  {
+    "university_name": "University College London, University of London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 29425,
+    "tier": 2,
+    "university_link": "http://www.ucl.ac.uk/"
+  },
+  {
+    "university_name": "University of Central Lancashire",
+    "country": "UK",
+    "state": "England",
+    "area": "Leeds",
+    "fee": 17603,
+    "tier": 2,
+    "university_link": "http://www.uclan.ac.uk/"
+  },
+  {
+    "university_name": "University Campus Suffolk",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Dundee",
+    "fee": 36779,
+    "tier": 1,
+    "university_link": "http://www.ucs.ac.uk/"
+  },
+  {
+    "university_name": "University of East Anglia",
+    "country": "UK",
+    "state": "England",
+    "area": "Cambridge",
+    "fee": 38158,
+    "tier": 1,
+    "university_link": "http://www.uea.ac.uk/"
+  },
+  {
+    "university_name": "University of East London",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 16152,
+    "tier": 2,
+    "university_link": "http://www.uel.ac.uk/"
+  },
+  {
+    "university_name": "University of Kent at Canterbury",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 26737,
+    "tier": 3,
+    "university_link": "http://www.ukc.ac.uk/"
+  },
+  {
+    "university_name": "School of Pharmacy, University of London",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 16611,
+    "tier": 3,
+    "university_link": "http://www.ulsop.ac.uk/"
+  },
+  {
+    "university_name": "United Medical and Dental Schools, University of London",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 39660,
+    "tier": 1,
+    "university_link": "http://www.umds.ac.uk/"
+  },
+  {
+    "university_name": "University of North London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 21528,
+    "tier": 2,
+    "university_link": "http://www.unl.ac.uk/"
+  },
+  {
+    "university_name": "Northumbria University",
+    "country": "UK",
+    "state": "England",
+    "area": "Leeds",
+    "fee": 28580,
+    "tier": 3,
+    "university_link": "https://www.northumbria.ac.uk/"
+  },
+  {
+    "university_name": "University of Wales College of Medicine",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 27213,
+    "tier": 3,
+    "university_link": "http://www.uwcm.ac.uk/"
+  },
+  {
+    "university_name": "University of the West of England, Bristol",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 16209,
+    "tier": 3,
+    "university_link": "http://www.uwe.ac.uk/"
+  },
+  {
+    "university_name": "University of Wales Institute, Cardiff",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 25666,
+    "tier": 3,
+    "university_link": "http://www.uwic.ac.uk/"
+  },
+  {
+    "university_name": "University of Wales",
+    "country": "UK",
+    "state": "England",
+    "area": "Cambridge",
+    "fee": 28995,
+    "tier": 3,
+    "university_link": "http://www.wales.ac.uk/"
+  },
+  {
+    "university_name": "Warnborough University",
+    "country": "UK",
+    "state": "England",
+    "area": "Liverpool",
+    "fee": 20478,
+    "tier": 2,
+    "university_link": "http://www.warnborough.edu/"
+  },
+  {
+    "university_name": "University of Warwick",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 41203,
+    "tier": 1,
+    "university_link": "http://www.warwick.ac.uk/"
+  },
+  {
+    "university_name": "University of Westminster",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 16156,
+    "tier": 3,
+    "university_link": "http://www.westminster.ac.uk/"
+  },
+  {
+    "university_name": "William Gilbert College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 21400,
+    "tier": 2,
+    "university_link": "http://www.williamgilbert.co.uk/"
+  },
+  {
+    "university_name": "Wimbledon School of Art",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 24524,
+    "tier": 3,
+    "university_link": "http://www.wimbledon.ac.uk/"
+  },
+  {
+    "university_name": "University of Wolverhampton",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Londonderry",
+    "fee": 15937,
+    "tier": 2,
+    "university_link": "http://www.wlv.ac.uk/"
+  },
+  {
+    "university_name": "University of Worcester",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 26498,
+    "tier": 3,
+    "university_link": "http://www.worc.ac.uk/"
+  },
+  {
+    "university_name": "University of York",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 18276,
+    "tier": 3,
+    "university_link": "http://www.york.ac.uk/"
+  },
+  {
+    "university_name": "Middlesbrough College",
+    "country": "UK",
+    "state": "England",
+    "area": "London",
+    "fee": 37765,
+    "tier": 1,
+    "university_link": "https://www.mbro.ac.uk/"
+  },
+  {
+    "university_name": "St Mary's University",
+    "country": "UK",
+    "state": "England",
+    "area": "Bristol",
+    "fee": 18383,
+    "tier": 3,
+    "university_link": "https://www.stmarys.ac.uk/home.aspx"
+  },
+  {
+    "university_name": "Leeds Trinity University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 16592,
+    "tier": 2,
+    "university_link": "https://www.leedstrinity.ac.uk/"
+  },
+  {
+    "university_name": "East Coast College",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 26360,
+    "tier": 3,
+    "university_link": "https://www.eastcoast.ac.uk/"
+  },
+  {
+    "university_name": "Swansea University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 29976,
+    "tier": 3,
+    "university_link": "https://www.swansea.ac.uk/"
+  },
+  {
+    "university_name": "York St. John University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 30935,
+    "tier": 1,
+    "university_link": "https://www.yorksj.ac.uk/"
+  },
+  {
+    "university_name": "Cardiff and Vale College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 18851,
+    "tier": 3,
+    "university_link": "https://cavc.ac.uk/"
+  },
+  {
+    "university_name": "Wakefield College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 26064,
+    "tier": 3,
+    "university_link": "https://wakefield.ac.uk"
+  },
+  {
+    "university_name": "London Interdisciplinary School",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 23020,
+    "tier": 3,
+    "university_link": "https://www.lis.ac.uk/"
+  },
+  {
+    "university_name": "HULT Business School",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 17721,
+    "tier": 2,
+    "university_link": "https://www.hult.edu/campuses/london/postgraduate/"
+  },
+  {
+    "university_name": "Ulster University",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 26162,
+    "tier": 3,
+    "university_link": "https://www.ulster.ac.uk/"
+  },
+  {
+    "university_name": "Up Learn Business School",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 37428,
+    "tier": 1,
+    "university_link": "https://uplearnbusinessschool.com/"
+  },
+  {
+    "university_name": "Newcastle College",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 18459,
+    "tier": 3,
+    "university_link": "https://www.ncl-coll.ac.uk/"
+  },
+  {
+    "university_name": "Bridgwater & Taunton College",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Swansea",
+    "fee": 24159,
+    "tier": 2,
+    "university_link": "https://www.btc.ac.uk/"
+  },
+  {
+    "university_name": "Runshaw College",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 27066,
+    "tier": 3,
+    "university_link": "https://www.runshaw.ac.uk/"
+  },
+  {
+    "university_name": "West Suffolk College",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "St Andrews",
+    "fee": 25868,
+    "tier": 2,
+    "university_link": "https://www.wsc.ac.uk/"
+  },
+  {
+    "university_name": "Harlaxton College",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Glasgow",
+    "fee": 20959,
+    "tier": 2,
+    "university_link": "https://college.harlaxton.co.uk/"
+  },
+  {
+    "university_name": "New College Swindon",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 26145,
+    "tier": 3,
+    "university_link": "https://www.newcollege.ac.uk/"
+  },
+  {
+    "university_name": "University of Cumbria",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Newport",
+    "fee": 21165,
+    "tier": 3,
+    "university_link": "https://www.cumbria.ac.uk/"
+  },
+  {
+    "university_name": "ESCP Business School",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 33751,
+    "tier": 1,
+    "university_link": "https://www.escpbusinessschool.edu"
+  },
+  {
+    "university_name": "London South Bank University",
+    "country": "UK",
+    "state": "Northern Ireland",
+    "area": "Belfast",
+    "fee": 36774,
+    "tier": 1,
+    "university_link": "https://www.lsbu.ac.uk/"
+  },
+  {
+    "university_name": "Scotland's Rural College (SRUC)",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 16683,
+    "tier": 3,
+    "university_link": "https://www.sruc.ac.uk/"
+  },
+  {
+    "university_name": "City St George's, University of London",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Aberdeen",
+    "fee": 24000,
+    "tier": 3,
+    "university_link": "https://www.citystgeorges.ac.uk/"
+  },
+  {
+    "university_name": "City St George's, University of London (II)",
+    "country": "UK",
+    "state": "Wales",
+    "area": "Bangor",
+    "fee": 25391,
+    "tier": 3,
+    "university_link": "https://www.citystgeorges.ac.uk/"
+  },
+  {
+    "university_name": "City St George's, University of London (School of Health and Medical Sciences)",
+    "country": "UK",
+    "state": "Scotland",
+    "area": "Edinburgh",
+    "fee": 25356,
+    "tier": 3,
+    "university_link": "https://www.sgul.ac.uk/"
+  },
+  {
+    "university_name": "Trinity College Bristol",
+    "country": "UK",
+    "state": "England",
+    "area": "Bristol",
+    "fee": 20569,
+    "tier": 2,
+    "university_link": "https://www.trinitycollegebristol.ac.uk/"
+  },
+  {
+    "university_name": "IU Internationale Hochschule GmbH",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12299,
+    "tier": 3,
+    "university_link": "https://www.iu-fernstudium.de/"
+  },
+  {
+    "university_name": "AKAD Hochschulen f\u00fcr Berufst\u00e4tige, Fachhochschule Leipzig",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 5783,
+    "tier": 3,
+    "university_link": "http://www.akad.de/"
+  },
+  {
+    "university_name": "Alice-Salomon-Fachhochschule f\u00fcr Sozialarbeit und Sozialp\u00e4dagogik Berlin",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 7540,
+    "tier": 3,
+    "university_link": "http://www.asfh-berlin.de/"
+  },
+  {
+    "university_name": "Augustana Hochschule Neuendettelsau",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1709,
+    "tier": 2,
+    "university_link": "http://www.augustana.de/"
+  },
+  {
+    "university_name": "Kirchliche Hochschule Bethel",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 2648,
+    "tier": 2,
+    "university_link": "http://www.bethel.de/kiho/"
+  },
+  {
+    "university_name": "BiTS - Business and Information Technology School gGmbH",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 6562,
+    "tier": 3,
+    "university_link": "http://www.bits-iserlohn.de/"
+  },
+  {
+    "university_name": "Cologne Business School",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 10124,
+    "tier": 3,
+    "university_link": "http://www.cbs.de/"
+  },
+  {
+    "university_name": "CODE University of Applied Sciences Berlin",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 8017,
+    "tier": 3,
+    "university_link": "http://code.berlin/"
+  },
+  {
+    "university_name": "Deutsche Hochschule f\u00fcr Verwaltungswissenschaften Speyer",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 9419,
+    "tier": 3,
+    "university_link": "http://www.dhv-speyer.de/"
+  },
+  {
+    "university_name": "DIPLOMA-Fachhochschule \u00d6lsnitz/Vogtland",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 5498,
+    "tier": 3,
+    "university_link": "http://www.diploma.de/"
+  },
+  {
+    "university_name": "Deutsche Sporthochschule K\u00f6ln",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 10380,
+    "tier": 3,
+    "university_link": "http://www.dshs-koeln.de/"
+  },
+  {
+    "university_name": "E.A.P. Europ\u00e4ische Wirtschaftshochschule Berlin",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 5904,
+    "tier": 3,
+    "university_link": "http://www.eap.net/"
+  },
+  {
+    "university_name": "Europ\u00e4ische Betriebswirtschafts-Akademie",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 14958,
+    "tier": 3,
+    "university_link": "http://www.eba-muenchen.de/"
+  },
+  {
+    "university_name": "European Business School Schlo\u00df Reichartshausen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 2698,
+    "tier": 2,
+    "university_link": "http://www.ebs.de/"
+  },
+  {
+    "university_name": "European College of Liberal Arts",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 10562,
+    "tier": 3,
+    "university_link": "http://www.ecla.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Rheinland-Westfalen-Lippe",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 14102,
+    "tier": 3,
+    "university_link": "http://www.efh-bochum.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Darmstadt",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 6529,
+    "tier": 3,
+    "university_link": "https://www.eh-darmstadt.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Freiburg, Hochschule f\u00fcr Soziale Arbeit, Diakonie und Religionsp\u00e4dagogik",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 2454,
+    "tier": 2,
+    "university_link": "http://www.efh-freiburg.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Hannover",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 2364,
+    "tier": 1,
+    "university_link": "http://www.efh-hannover.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Ludwigshafen Hochschule f\u00fcr Sozial- und Gesundheitswesen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 1006,
+    "tier": 2,
+    "university_link": "http://www.efhlu.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Reutlingen-Ludwigsburg, Hochschule f\u00fcr Soziale Arbeit, Religionsp\u00e4dagogik und Diakonie",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 9139,
+    "tier": 3,
+    "university_link": "http://www.efh-reutlingen-ludwigsburg.de/"
+  },
+  {
+    "university_name": "Evangelische Hochschule f\u00fcr Soziale Arbeit Dresden (FH)",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 2627,
+    "tier": 2,
+    "university_link": "http://www.ehs-dresden.de/"
+  },
+  {
+    "university_name": "European Management School",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 2784,
+    "tier": 2,
+    "university_link": "http://www.ems-mainz.de/"
+  },
+  {
+    "university_name": "Europ\u00e4ische Fachhochschule",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 2697,
+    "tier": 2,
+    "university_link": "http://www.eufh.de/"
+  },
+  {
+    "university_name": "Europa-Universit\u00e4t Viadrina Frankfurt (Oder)",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 999,
+    "tier": 2,
+    "university_link": "http://www.euv-frankfurt-o.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule Berlin, Fachhochschule f\u00fcr Sozialarbeit und Sozialp\u00e4dagogik",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 2998,
+    "tier": 2,
+    "university_link": "http://www.evfh-berlin.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule N\u00fcrnberg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 13045,
+    "tier": 3,
+    "university_link": "http://www.evfh-nuernberg.de/"
+  },
+  {
+    "university_name": "Fern-Fachhochschule Hamburg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 1593,
+    "tier": 2,
+    "university_link": "http://www.fern-fh.de/"
+  },
+  {
+    "university_name": "Fernuniversit\u00e4t Gesamthochschule Hagen",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Essen",
+    "fee": 1768,
+    "tier": 2,
+    "university_link": "http://www.fernuni-hagen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Aachen",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 10848,
+    "tier": 3,
+    "university_link": "http://www.fh-aachen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Aschaffenburg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2295,
+    "tier": 2,
+    "university_link": "http://www.fh-aschaffenburg.de/"
+  },
+  {
+    "university_name": "Technical University of Applied Sciences Augsburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 2035,
+    "tier": 2,
+    "university_link": "https://www.tha.de/"
+  },
+  {
+    "university_name": "Internationale Fachhochschule Bad Honnef",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 9212,
+    "tier": 3,
+    "university_link": "http://www.fh-bad-honnef.de/"
+  },
+  {
+    "university_name": "Fachhochschule Biberach, Hochschule f\u00fcr Bauwesen und Wirtschaft",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 2490,
+    "tier": 2,
+    "university_link": "http://www.fh-biberach.de/"
+  },
+  {
+    "university_name": "Fachhochschule Bielefeld",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 10211,
+    "tier": 3,
+    "university_link": "http://www.fh-bielefeld.de/"
+  },
+  {
+    "university_name": "Fachhochschule Bingen",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 1938,
+    "tier": 2,
+    "university_link": "http://www.fh-bingen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Bochum",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 721,
+    "tier": 2,
+    "university_link": "http://www.fh-bochum.de/"
+  },
+  {
+    "university_name": "Hochschule Bonn-Rhein-Sieg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 1450,
+    "tier": 2,
+    "university_link": "http://www.hochschule-bonn-rhein-sieg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Brandenburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 6972,
+    "tier": 3,
+    "university_link": "http://www.fh-brandenburg.de/"
+  },
+  {
+    "university_name": "Technische Hochschule Brandenburg",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Essen",
+    "fee": 13810,
+    "tier": 3,
+    "university_link": "http://www.th-brandenburg.de/"
+  },
+  {
+    "university_name": "Technische Hochschule Deggendorf",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 2866,
+    "tier": 2,
+    "university_link": "http://www.th-deg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Dortmund",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 1347,
+    "tier": 2,
+    "university_link": "http://www.fh-dortmund.de/"
+  },
+  {
+    "university_name": "Hochschule D\u00fcsseldorf",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 739,
+    "tier": 2,
+    "university_link": "http://www.hs-duesseldorf.de/"
+  },
+  {
+    "university_name": "Fachhochschule f\u00fcr die Wirtschaft",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12908,
+    "tier": 3,
+    "university_link": "http://www.fhdw.bib.de/"
+  },
+  {
+    "university_name": "Fachhochschule der Wirtschaft",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 6770,
+    "tier": 3,
+    "university_link": "http://www.fhdw.de/"
+  },
+  {
+    "university_name": "Fachhochschule Eberswalde",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12118,
+    "tier": 3,
+    "university_link": "http://www.fh-eberswalde.de/"
+  },
+  {
+    "university_name": "Fachhochschule Erfurt",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 1783,
+    "tier": 2,
+    "university_link": "http://www.fh-erfurt.de/"
+  },
+  {
+    "university_name": "Fachhochschule Flensburg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 12332,
+    "tier": 3,
+    "university_link": "http://www.fh-flensburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Frankfurt am Main",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 2018,
+    "tier": 2,
+    "university_link": "http://www.fh-frankfurt.de/"
+  },
+  {
+    "university_name": "Europa Fachhochschule Fresenius",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 13997,
+    "tier": 3,
+    "university_link": "http://www.fh-fresenius.de/"
+  },
+  {
+    "university_name": "Fachhochschule Furtwangen, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Munster",
+    "fee": 8786,
+    "tier": 3,
+    "university_link": "http://www.fh-furtwangen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Gelsenkirchen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 1454,
+    "tier": 2,
+    "university_link": "http://www.fh-gelsenkirchen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Gie\u00dfen-Friedberg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 7688,
+    "tier": 3,
+    "university_link": "http://www.fh-giessen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Hamburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 1797,
+    "tier": 2,
+    "university_link": "http://www.fh-hamburg.de/"
+  },
+  {
+    "university_name": "Hamburg University of Applied Sciences (HAW Hamburg)",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12735,
+    "tier": 3,
+    "university_link": "https://haw-hamburg.de"
+  },
+  {
+    "university_name": "Fachhochschule Hannover",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 2675,
+    "tier": 2,
+    "university_link": "http://www.fh-hannover.de/"
+  },
+  {
+    "university_name": "Fachhochschule Heidelberg",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 7274,
+    "tier": 3,
+    "university_link": "http://www.fh-heidelberg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Heilbronn, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 13471,
+    "tier": 3,
+    "university_link": "http://www.fh-heilbronn.de/"
+  },
+  {
+    "university_name": "Fachhochschule Hildesheim/Holzminden/G\u00f6ttingen, Hochschule f\u00fcr angewandte Wissenschaft und Kunst",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Augsburg",
+    "fee": 1713,
+    "tier": 1,
+    "university_link": "http://www.fh-hildesheim.de/"
+  },
+  {
+    "university_name": "Fachhochschule Hof",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 1466,
+    "tier": 1,
+    "university_link": "http://www.fh-hof.de/"
+  },
+  {
+    "university_name": "Technische Hochschule Ingolstadt",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 6769,
+    "tier": 3,
+    "university_link": "https://www.thi.de/"
+  },
+  {
+    "university_name": "Fachhochschule und Berufskollegs NTA, Prof.Dr. Gr\u00fcbler gemein. GmbH",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 2291,
+    "tier": 2,
+    "university_link": "http://www.fh-isny.de/"
+  },
+  {
+    "university_name": "Fachhochschule Jena",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 2308,
+    "tier": 2,
+    "university_link": "http://www.fh-jena.de/"
+  },
+  {
+    "university_name": "Fachhochschule Karlsruhe, Hochschule f\u00fcr Technik",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 9195,
+    "tier": 3,
+    "university_link": "http://www.fh-karlsruhe.de/"
+  },
+  {
+    "university_name": "Fachhochschule Kempten, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 1188,
+    "tier": 2,
+    "university_link": "http://www.fh-Kempten.de/"
+  },
+  {
+    "university_name": "Fachhochschule Kiel",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 769,
+    "tier": 1,
+    "university_link": "http://www.fh-kiel.de/"
+  },
+  {
+    "university_name": "Fachhochschule Kaiserslautern",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 2468,
+    "tier": 1,
+    "university_link": "http://www.fh-kl.de/"
+  },
+  {
+    "university_name": "Fachhochschule Koblenz",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 1492,
+    "tier": 2,
+    "university_link": "http://www.fh-koblenz.de/"
+  },
+  {
+    "university_name": "Technische Hochschule K\u00f6ln",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 6823,
+    "tier": 3,
+    "university_link": "https://www.th-koeln.de/"
+  },
+  {
+    "university_name": "Fachhochschule Konstanz, Hochschule f\u00fcr Technik, Wirtschaft und Gestaltung",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2448,
+    "tier": 2,
+    "university_link": "http://www.fh-konstanz.de/"
+  },
+  {
+    "university_name": "Staatlich anerkannte Fachhochschule f\u00fcr Kunsttherapie",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 2260,
+    "tier": 2,
+    "university_link": "http://www.fhkt.de/"
+  },
+  {
+    "university_name": "Fachhochschule Landshut, Hochschule f\u00fcr Wirtschaft - Sozialwesen - Technik",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1326,
+    "tier": 2,
+    "university_link": "http://www.fh-landshut.de/"
+  },
+  {
+    "university_name": "Fachhochschule Lausitz",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 9857,
+    "tier": 3,
+    "university_link": "http://www.fh-lausitz.de/"
+  },
+  {
+    "university_name": "Fachhochschule Lippe",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 2685,
+    "tier": 2,
+    "university_link": "http://www.fh-lippe.de/"
+  },
+  {
+    "university_name": "Fachhochschule Ludwigshafen, Hochschule f\u00fcr Wirtschaft",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 13127,
+    "tier": 3,
+    "university_link": "http://www.fh-ludwigshafen.de/"
+  },
+  {
+    "university_name": "Fachhochschule L\u00fcbeck",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2296,
+    "tier": 2,
+    "university_link": "http://www.fh-luebeck.de/"
+  },
+  {
+    "university_name": "Fachhochschule Mainz",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 1897,
+    "tier": 2,
+    "university_link": "http://www.fh-mainz.de/"
+  },
+  {
+    "university_name": "Fachhochschule Mannheim, Hochschule f\u00fcr Technik und Gestaltung",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 629,
+    "tier": 2,
+    "university_link": "http://www.fh-mannheim.de/"
+  },
+  {
+    "university_name": "Fachhochschule Merseburg",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 682,
+    "tier": 2,
+    "university_link": "http://www.fh-merseburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule des Mittelstandes (FHM)",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 7925,
+    "tier": 3,
+    "university_link": "http://www.fhm-mittelstand.de/"
+  },
+  {
+    "university_name": "Fachhochschule M\u00fcnchen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 853,
+    "tier": 1,
+    "university_link": "http://www.fh-muenchen.de/"
+  },
+  {
+    "university_name": "Hochschule M\u00fcnchen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 14273,
+    "tier": 3,
+    "university_link": "http://www.hm.edu/"
+  },
+  {
+    "university_name": "Fachhochschule M\u00fcnster",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 577,
+    "tier": 2,
+    "university_link": "http://www.fh-muenster.de/"
+  },
+  {
+    "university_name": "Fachhochschule Neubrandenburg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 11312,
+    "tier": 3,
+    "university_link": "http://www.fh-nb.de/"
+  },
+  {
+    "university_name": "Hochschule Neu-Ulm, Hochschule Neu-Ulm University of applied sciences",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 8766,
+    "tier": 3,
+    "university_link": "http://www.hs-neu-ulm.de/"
+  },
+  {
+    "university_name": "Fachhochschule Niederrhein",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 2242,
+    "tier": 2,
+    "university_link": "http://www.fh-niederrhein.de/"
+  },
+  {
+    "university_name": "Fachhochschule Nordostniedersachsen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 14044,
+    "tier": 3,
+    "university_link": "http://www.fhnon.de/"
+  },
+  {
+    "university_name": "Fachhochschule Nordhausen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 8174,
+    "tier": 3,
+    "university_link": "http://www.fh-nordhausen.de/"
+  },
+  {
+    "university_name": "Georg-Simon-Ohm-Fachhochschule N\u00fcrnberg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 14410,
+    "tier": 3,
+    "university_link": "http://www.fh-nuernberg.de/"
+  },
+  {
+    "university_name": "Fachhochschule N\u00fcrtingen, Hochschule f\u00fcr Wirtschaft, Landwirtschaft und Landespflege",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 9744,
+    "tier": 3,
+    "university_link": "http://www.fh-nuertingen.de/"
+  },
+  {
+    "university_name": "Fachhochschule f\u00fcr das \u00f6ffentliche Bibliothekswesen Bonn",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 1543,
+    "tier": 1,
+    "university_link": "http://www.fhoebb.de/"
+  },
+  {
+    "university_name": "Fachhochschule Offenburg, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 12882,
+    "tier": 3,
+    "university_link": "http://www.fh-offenburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Oldenburg/Ostfriesland/Wilhelmshaven",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2847,
+    "tier": 1,
+    "university_link": "http://www.fh-oow.de/"
+  },
+  {
+    "university_name": "Fachhochschule Osnabr\u00fcck",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Munster",
+    "fee": 2142,
+    "tier": 2,
+    "university_link": "http://www.fh-osnabrueck.de/"
+  },
+  {
+    "university_name": "Freie Kunst-Studienst\u00e4tte Ottersberg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 11283,
+    "tier": 3,
+    "university_link": "http://www.fh-ottersberg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Pforzheim, Hochschule f\u00fcr Gestaltung, Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 12689,
+    "tier": 3,
+    "university_link": "http://www.fh-pforzheim.de/"
+  },
+  {
+    "university_name": "Fachhochschule Potsdam",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 5320,
+    "tier": 3,
+    "university_link": "http://www.fh-potsdam.de/"
+  },
+  {
+    "university_name": "Fachhochschule Regensburg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 5292,
+    "tier": 3,
+    "university_link": "http://www.fh-regensburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Reutlingen, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 1274,
+    "tier": 2,
+    "university_link": "http://www.fh-reutlingen.de/"
+  },
+  {
+    "university_name": "Deutsch-Ordens Fachhochschule Riedlingen, Hochschule f\u00fcr Wirtschaft",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 2406,
+    "tier": 2,
+    "university_link": "http://www.fh-riedlingen.de/"
+  },
+  {
+    "university_name": "Fachhochschule Rosenheim, Hochschule f\u00fcr Technik und Wirtschaft",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 1791,
+    "tier": 2,
+    "university_link": "http://www.fh-rosenheim.de/"
+  },
+  {
+    "university_name": "Fachhochschule Rottenburg, Hochschule f\u00fcr Forstwirtschaft",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 1000,
+    "tier": 2,
+    "university_link": "http://www.fh-rottenburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Schmalkalden",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Aachen",
+    "fee": 6525,
+    "tier": 3,
+    "university_link": "http://www.fh-schmalkalden.de/"
+  },
+  {
+    "university_name": "Fachhochschule Schw\u00e4bisch Hall, Hochschule f\u00fcr Gestaltung",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 1071,
+    "tier": 2,
+    "university_link": "http://www.fh-schwaebischhall.de/"
+  },
+  {
+    "university_name": "Fachhochschule Mannheim, Hochschule f\u00fcr Sozialwesen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 14122,
+    "tier": 3,
+    "university_link": "http://www.fhs-mannheim.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule f\u00fcr Religionsp\u00e4dagogik, und Gemeindediakonie Moritzburg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 1934,
+    "tier": 2,
+    "university_link": "http://www.fhs-moritzburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Stralsund",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 2303,
+    "tier": 2,
+    "university_link": "http://www.fh-stralsund.de/"
+  },
+  {
+    "university_name": "Deutsche Telekom Fachhochschule Leipzig",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 2847,
+    "tier": 2,
+    "university_link": "http://www.fh-telekom-leipzig.de/"
+  },
+  {
+    "university_name": "Fachhochschule Trier, Hochschule f\u00fcr Technik, Wirtschaft und Gestaltung",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 8817,
+    "tier": 3,
+    "university_link": "http://www.fh-trier.de/"
+  },
+  {
+    "university_name": "Fachhochschule Stuttgart, Hochschule f\u00fcr Technik",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 8661,
+    "tier": 3,
+    "university_link": "http://www.fht-stuttgart.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Technik und Wirtschaft Berlin",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 13020,
+    "tier": 3,
+    "university_link": "https://www.htw-berlin.de/"
+  },
+  {
+    "university_name": "Hochschule Ulm, Hochschule f\u00fcr Angewandte Wissenschaft",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 14393,
+    "tier": 3,
+    "university_link": "http://www.hs-ulm.de/"
+  },
+  {
+    "university_name": "Fachhochschule f\u00fcr Verwaltung und Rechtspflege Berlin",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 13278,
+    "tier": 3,
+    "university_link": "http://www.fhvr.berlin.de/"
+  },
+  {
+    "university_name": "Fachhochschule f\u00fcr Wirtschaft Berlin",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 10791,
+    "tier": 3,
+    "university_link": "http://www.fhw-berlin.de/"
+  },
+  {
+    "university_name": "Fachhochschule Wedel",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 10952,
+    "tier": 3,
+    "university_link": "http://www.fh-wedel.de/"
+  },
+  {
+    "university_name": "Fachhochschule Weihenstephan",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 9921,
+    "tier": 3,
+    "university_link": "http://www.fh-weihenstephan.de/"
+  },
+  {
+    "university_name": "Fachhochschule Ravensburg-Weingarten",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1421,
+    "tier": 2,
+    "university_link": "http://www.fh-weingarten.de/"
+  },
+  {
+    "university_name": "Fachhochschule Westk\u00fcste, Hochschule f\u00fcr Wirtschaft und Technik",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 14416,
+    "tier": 3,
+    "university_link": "http://www.fh-westkueste.de/"
+  },
+  {
+    "university_name": "Fachhochschule Wiesbaden",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 1144,
+    "tier": 2,
+    "university_link": "http://www.fh-wiesbaden.de/"
+  },
+  {
+    "university_name": "Ostfalia Hochschule f\u00fcr angewandte Wissenschaften",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 1289,
+    "tier": 2,
+    "university_link": "https://www.ostfalia.de/"
+  },
+  {
+    "university_name": "Fachhochschule Worms",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 2266,
+    "tier": 1,
+    "university_link": "http://www.fh-worms.de/"
+  },
+  {
+    "university_name": "Private Fachhochschule f\u00fcr Wirtschaft und Technik Vechta/Diepholz",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2208,
+    "tier": 1,
+    "university_link": "http://www.fhwt.de/"
+  },
+  {
+    "university_name": "Fachhochschule W\u00fcrzburg - Schweinfurt",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2772,
+    "tier": 2,
+    "university_link": "http://www.fh-wuerzburg.de/"
+  },
+  {
+    "university_name": "Wests\u00e4chsische Hochschule Zwickau (FH)",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 13839,
+    "tier": 3,
+    "university_link": "http://www.fh-zwickau.de/"
+  },
+  {
+    "university_name": "Fachhochschule f\u00fcr Oekonomie und Management (FOM)",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 2964,
+    "tier": 1,
+    "university_link": "http://www.fom.de/"
+  },
+  {
+    "university_name": "Freie Universit\u00e4t Berlin",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 14103,
+    "tier": 3,
+    "university_link": "http://www.fu-berlin.de/"
+  },
+  {
+    "university_name": "Private Hanseuniversit\u00e4t",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1635,
+    "tier": 2,
+    "university_link": "http://www.hanseuni.de/"
+  },
+  {
+    "university_name": "Hafencity Universit\u00e4t Hamburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 8307,
+    "tier": 3,
+    "university_link": "http://www.hcu-hamburg.de/"
+  },
+  {
+    "university_name": "Fachhochschule Stuttgart, Hochschule der Medien",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 1743,
+    "tier": 2,
+    "university_link": "http://www.hdm-stuttgart.de/"
+  },
+  {
+    "university_name": "Hertie School of Governance",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 12130,
+    "tier": 3,
+    "university_link": "http://www.hertie-school.org/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Bankwirtschaft (HfB), Private Fachhochschule der Bankakademie",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 11641,
+    "tier": 3,
+    "university_link": "http://www.hfb.de/"
+  },
+  {
+    "university_name": "Fachhochschule Schw\u00e4bisch Gm\u00fcnd, Hochschule f\u00fcr Gestaltung",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Darmstadt",
+    "fee": 2355,
+    "tier": 2,
+    "university_link": "http://www.hfg-gmuend.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Philosophie M\u00fcnchen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 7467,
+    "tier": 3,
+    "university_link": "http://www.hfph.mwn.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Politik (HFP)",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Aachen",
+    "fee": 5250,
+    "tier": 3,
+    "university_link": "http://www.hfp.mhn.de/"
+  },
+  {
+    "university_name": "Handelshochschule Leipzig",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 12266,
+    "tier": 3,
+    "university_link": "http://www.hhl.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Internationales Management",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 2638,
+    "tier": 2,
+    "university_link": "http://www.himh.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr J\u00fcdische Studien Heidelberg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 5829,
+    "tier": 3,
+    "university_link": "http://www.hjs.uni-heidelberg.de/"
+  },
+  {
+    "university_name": "Hochschule Albstadt-Sigmaringen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 1982,
+    "tier": 2,
+    "university_link": "http://www.hs-albsig.de/"
+  },
+  {
+    "university_name": "Hochschule Anhalt (FH), Hochschule f\u00fcr angewandte Wissenschaften",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 11533,
+    "tier": 3,
+    "university_link": "http://www.hs-anhalt.de/"
+  },
+  {
+    "university_name": "Hochschule Bremen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 14281,
+    "tier": 3,
+    "university_link": "http://www.hs-bremen.de/"
+  },
+  {
+    "university_name": "Hochschule Bremerhaven",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 2041,
+    "tier": 2,
+    "university_link": "http://www.hs-bremerhaven.de/"
+  },
+  {
+    "university_name": "Hochschule Coburg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 1378,
+    "tier": 1,
+    "university_link": "http://www.hs-coburg.de/"
+  },
+  {
+    "university_name": "Hochschule Darmstadt",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 6000,
+    "tier": 3,
+    "university_link": "https://www.h-da.de/"
+  },
+  {
+    "university_name": "Hochschule Esslingen",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2654,
+    "tier": 2,
+    "university_link": "http://www.hs-esslingen.de/"
+  },
+  {
+    "university_name": "Hochschule Fulda",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 5026,
+    "tier": 3,
+    "university_link": "http://www.hs-fulda.de/"
+  },
+  {
+    "university_name": "Hochschule Harz, Hochschule f\u00fcr angewandte Wissenschaften (FH)",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 12750,
+    "tier": 3,
+    "university_link": "http://www.hs-harz.de/"
+  },
+  {
+    "university_name": "Hochschule Magdeburg-Stendal (FH)",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 9590,
+    "tier": 3,
+    "university_link": "http://www.hs-magdeburg.de/"
+  },
+  {
+    "university_name": "Hochschule Wismar, Fachhochschule f\u00fcr Technik, Wirtschaft und Gestaltung",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 6247,
+    "tier": 3,
+    "university_link": "http://www.hs-wismar.de/"
+  },
+  {
+    "university_name": "Hochschule Zittau/G\u00f6rlitz (FH)",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 10369,
+    "tier": 3,
+    "university_link": "http://www.hs-zigr.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Technik und Wirtschaft Dresden (FH)",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1488,
+    "tier": 2,
+    "university_link": "http://www.htw-dresden.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Technik, Wirtschaft und Kultur Leipzig (FH)",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 14070,
+    "tier": 3,
+    "university_link": "http://www.htwk-leipzig.de/"
+  },
+  {
+    "university_name": "Hochschule Mittweida, University of Applied Sciences",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 1135,
+    "tier": 2,
+    "university_link": "http://www.htwm.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Technik und Wirtschaft des Saarlandes",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 13155,
+    "tier": 3,
+    "university_link": "http://www.htw-saarland.de/"
+  },
+  {
+    "university_name": "Humboldt Universit\u00e4t Berlin",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 14818,
+    "tier": 3,
+    "university_link": "http://www.hu-berlin.de/"
+  },
+  {
+    "university_name": "HWP - Hamburger Universit\u00e4t f\u00fcr Wirtschaft und Politik",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 7234,
+    "tier": 3,
+    "university_link": "http://www.hwp-hamburg.de/"
+  },
+  {
+    "university_name": "Internationales Hochschulinstitut Zittau",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 5080,
+    "tier": 3,
+    "university_link": "http://www.ihi-zittau.de/"
+  },
+  {
+    "university_name": "Internationale Fachhochschule Aalen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 893,
+    "tier": 2,
+    "university_link": "http://www.international.fh-aalen.de/"
+  },
+  {
+    "university_name": "International School of Management ISM Dortmund",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 2149,
+    "tier": 1,
+    "university_link": "http://www.ism-dortmund.de/"
+  },
+  {
+    "university_name": "International School of New Media, University of L\u00fcbeck",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 2151,
+    "tier": 2,
+    "university_link": "http://www.isnm.de/"
+  },
+  {
+    "university_name": "International University in Germany",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 2921,
+    "tier": 2,
+    "university_link": "http://www.i-u.de/"
+  },
+  {
+    "university_name": "Jacobs University Bremen",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 11899,
+    "tier": 3,
+    "university_link": "http://www.jacobs-university.de/"
+  },
+  {
+    "university_name": "Karlshochschule International University",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Augsburg",
+    "fee": 1700,
+    "tier": 2,
+    "university_link": "http://www.karlshochschule.de/"
+  },
+  {
+    "university_name": "Katholische Fachhochschule Norddeutschland",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 7419,
+    "tier": 3,
+    "university_link": "http://www.kath-fh-nord.de/"
+  },
+  {
+    "university_name": "Katholische Fachhochschule Berlin (KFB)",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 812,
+    "tier": 1,
+    "university_link": "http://www.kfb-berlin.de/"
+  },
+  {
+    "university_name": "Katholische Fachhochschule Freiburg, Hochschule f\u00fcr Sozialwesen, Religionsp\u00e4dagogik und Pflege",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 1823,
+    "tier": 2,
+    "university_link": "http://www.kfh-Freiburg.de/"
+  },
+  {
+    "university_name": "Katholische Fachhochschule Mainz",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Darmstadt",
+    "fee": 7719,
+    "tier": 3,
+    "university_link": "http://www.kfh-mainz.de/"
+  },
+  {
+    "university_name": "Katholische Fachhochschule Nordrhein-Westfalen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 2579,
+    "tier": 1,
+    "university_link": "http://www.kfhnw.de/"
+  },
+  {
+    "university_name": "Kunsthochschule Berlin-Weissensee, Hochschule f\u00fcr Gestaltung",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12538,
+    "tier": 3,
+    "university_link": "http://www.kh-berlin.de/"
+  },
+  {
+    "university_name": "Katholische Hochschule f\u00fcr Soziale Arbeit Saarbr\u00fccken",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 1017,
+    "tier": 1,
+    "university_link": "http://www.khsa.de/"
+  },
+  {
+    "university_name": "Katholische Stiftungsfachhochschule M\u00fcnchen",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 2071,
+    "tier": 2,
+    "university_link": "http://www.ksfh.de/"
+  },
+  {
+    "university_name": "Katholische Universit\u00e4t Eichst\u00e4tt",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 10145,
+    "tier": 3,
+    "university_link": "http://www.ku-eichstaett.de/"
+  },
+  {
+    "university_name": "Kunstakademie D\u00fcsseldorf.",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 830,
+    "tier": 2,
+    "university_link": "http://www.kunstakademie-duesseldorf.de/"
+  },
+  {
+    "university_name": "Merkur Internationale FH Karlsruhe",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 8903,
+    "tier": 3,
+    "university_link": "http://www.merkur-fh.org/"
+  },
+  {
+    "university_name": "Merz Akademie, Hochschule f\u00fcr Gestaltung Stuttgart",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dusseldorf",
+    "fee": 5238,
+    "tier": 3,
+    "university_link": "http://www.merz-akademie.de/"
+  },
+  {
+    "university_name": "M\u00e4rkische Fachhochschule Iserlohn",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 5769,
+    "tier": 3,
+    "university_link": "http://www.mfh-iserlohn.de/"
+  },
+  {
+    "university_name": "Medizinische Hochschule Hannover",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2932,
+    "tier": 2,
+    "university_link": "http://www.mh-hannover.de/"
+  },
+  {
+    "university_name": "Staatliche Hochschule f\u00fcr Musik",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 7296,
+    "tier": 3,
+    "university_link": "http://www.mh-trossingen.de/"
+  },
+  {
+    "university_name": "Medizinische Universit\u00e4t L\u00fcbeck",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 2982,
+    "tier": 1,
+    "university_link": "http://www.mu-luebeck.de/"
+  },
+  {
+    "university_name": "Muthesius-Hochschule, Fachhochschule f\u00fcr Kunst und Gestaltung",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 14196,
+    "tier": 3,
+    "university_link": "http://www.muthesius.de/"
+  },
+  {
+    "university_name": "Nordakademie, Staatlich anerkannte private Fachhochschule mit dualen Studieng\u00e4ngen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 6402,
+    "tier": 3,
+    "university_link": "http://www.nordakademie.de/"
+  },
+  {
+    "university_name": "Theologische Fakult\u00e4t Paderborn",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 1455,
+    "tier": 2,
+    "university_link": "http://www.paderborn.de/theofak/"
+  },
+  {
+    "university_name": "Private Fachhochschule G\u00f6ttingen",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 8474,
+    "tier": 3,
+    "university_link": "http://www.pfh-goettingen.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Erfurt/M\u00fchlhausen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 5195,
+    "tier": 3,
+    "university_link": "http://www.ph-erfurt.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Freiburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 14470,
+    "tier": 3,
+    "university_link": "http://www.ph-freiburg.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Schw\u00e4bisch Gm\u00fcnd",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 9499,
+    "tier": 3,
+    "university_link": "http://www.ph-gmuend.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Heidelberg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 8227,
+    "tier": 3,
+    "university_link": "http://www.ph-heidelberg.de/"
+  },
+  {
+    "university_name": "Philosophisch-Theologische Hochschule SVD Sankt Augustin",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 6500,
+    "tier": 3,
+    "university_link": "http://www.philtheol-augustin.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Karlsruhe",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 1298,
+    "tier": 2,
+    "university_link": "http://www.ph-karlsruhe.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Ludwigsburg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 2479,
+    "tier": 2,
+    "university_link": "http://www.ph-ludwigsburg.de/"
+  },
+  {
+    "university_name": "P\u00e4dagogische Hochschule Weingarten",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 2906,
+    "tier": 2,
+    "university_link": "http://www.ph-weingarten.de/"
+  },
+  {
+    "university_name": "Popakademie Baden-W\u00fcrttemberg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 553,
+    "tier": 2,
+    "university_link": "http://www.popakademie.de/"
+  },
+  {
+    "university_name": "Private FernFachhochschule Darmstadt",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 9119,
+    "tier": 3,
+    "university_link": "http://www.privatfh-da.de/"
+  },
+  {
+    "university_name": "Philosophisch-Theologische Hochschule der Salesianer Don Boscos",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 673,
+    "tier": 2,
+    "university_link": "http://www.pth-bb.de/"
+  },
+  {
+    "university_name": "Philosophisch-Theologische Hochschule M\u00fcnster",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 826,
+    "tier": 2,
+    "university_link": "http://www.pth-muenster.de/"
+  },
+  {
+    "university_name": "Philosophisch-Theologische Hochschule Vallendar der Gesellschaft des Katholischen Apostolates (Pallottiner)",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 13854,
+    "tier": 3,
+    "university_link": "http://www.pthv.de/"
+  },
+  {
+    "university_name": "Evangelische Fachhochschule f\u00fcr Sozialp\u00e4dagogik der \"Diakonenanstalt des Rauhen Hauses\" Hamburg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 12960,
+    "tier": 3,
+    "university_link": "http://www.rauheshaus.de/fachhochschule/"
+  },
+  {
+    "university_name": "Rheinische Fachhochschule K\u00f6ln",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 7816,
+    "tier": 3,
+    "university_link": "http://www.rfh-koeln.de/"
+  },
+  {
+    "university_name": "Ruhr-Universit\u00e4t Bochum",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 7925,
+    "tier": 3,
+    "university_link": "http://www.ruhr-uni-bochum.de/"
+  },
+  {
+    "university_name": "Rheinisch Westf\u00e4lische Technische Hochschule Aachen",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Aachen",
+    "fee": 1678,
+    "tier": 2,
+    "university_link": "http://www.rwth-aachen.de/"
+  },
+  {
+    "university_name": "Lutherische Theologische Hochschule Oberursel",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Bonn",
+    "fee": 6355,
+    "tier": 3,
+    "university_link": "http://www.selk.de/LThH/"
+  },
+  {
+    "university_name": "Gustav-Siewerth-Akademie",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 890,
+    "tier": 1,
+    "university_link": "http://www.siewerth-akademie.de/"
+  },
+  {
+    "university_name": "Schiller International University, Heidelberg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 2004,
+    "tier": 2,
+    "university_link": "http://www.siu-heidelberg.de/"
+  },
+  {
+    "university_name": "SRH University of Applied Sciences",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 516,
+    "tier": 2,
+    "university_link": "http://www.srh-berlin.de/"
+  },
+  {
+    "university_name": "Philosophisch-Theologische Hochschule Sankt Georgen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 1626,
+    "tier": 2,
+    "university_link": "http://www.st-georgen.uni-frankfurt.de/"
+  },
+  {
+    "university_name": "Steinbeis-Hochschule-Berlin",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 7467,
+    "tier": 3,
+    "university_link": "http://www.stw.de/shb/"
+  },
+  {
+    "university_name": "Technische Fachhochschule Berlin",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 7383,
+    "tier": 3,
+    "university_link": "http://www.tfh-berlin.de/"
+  },
+  {
+    "university_name": "Technische Fachhochschule Georg Agricola f\u00fcr Rohstoff, Energie und, Umwelt zu Bochum",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Regensburg",
+    "fee": 6091,
+    "tier": 3,
+    "university_link": "http://www.tfh-bochum.de/"
+  },
+  {
+    "university_name": "Technische Fachhochschule Wildau",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 6955,
+    "tier": 3,
+    "university_link": "http://www.tfh-wildau.de/"
+  },
+  {
+    "university_name": "Theologische Hochschule Friedensau",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 1674,
+    "tier": 2,
+    "university_link": "http://www.thh-friedensau.de/"
+  },
+  {
+    "university_name": "Tier\u00e4rztliche Hochschule Hannover",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2896,
+    "tier": 2,
+    "university_link": "http://www.tiho-hannover.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Berlin",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 2622,
+    "tier": 2,
+    "university_link": "http://www.tu-berlin.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Carolo-Wilhelmina zu Braunschweig",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 2172,
+    "tier": 2,
+    "university_link": "https://www.tu-braunschweig.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Chemnitz",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 2632,
+    "tier": 2,
+    "university_link": "http://www.tu-chemnitz.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Clausthal",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 13241,
+    "tier": 3,
+    "university_link": "http://www.tu-clausthal.de/"
+  },
+  {
+    "university_name": "Brandenburgische Technische Universit\u00e4t Cottbus",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Freiburg",
+    "fee": 13142,
+    "tier": 3,
+    "university_link": "http://www.tu-cottbus.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Darmstadt",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 7419,
+    "tier": 3,
+    "university_link": "https://www.tu-darmstadt.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Dresden",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 9206,
+    "tier": 3,
+    "university_link": "http://www.tu-dresden.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Bergakademie Freiberg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Freiburg",
+    "fee": 2052,
+    "tier": 2,
+    "university_link": "http://www.tu-freiberg.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Hamburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 10750,
+    "tier": 3,
+    "university_link": "http://www.tuhh.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Ilmenau",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2465,
+    "tier": 2,
+    "university_link": "http://www.tu-ilmenau.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t M\u00fcnchen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 1259,
+    "tier": 2,
+    "university_link": "http://www.tum.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Augsburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Augsburg",
+    "fee": 1840,
+    "tier": 2,
+    "university_link": "http://www.uni-augsburg.de/"
+  },
+  {
+    "university_name": "Otto-Friedrich Universit\u00e4t Bamberg",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 5379,
+    "tier": 3,
+    "university_link": "http://www.uni-bamberg.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Bayreuth",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2434,
+    "tier": 2,
+    "university_link": "http://www.uni-bayreuth.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Bielefeld",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 1476,
+    "tier": 2,
+    "university_link": "http://www.uni-bielefeld.de/"
+  },
+  {
+    "university_name": "Rheinische Friedrich-Wilhelms Universit\u00e4t Bonn",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 10901,
+    "tier": 3,
+    "university_link": "http://www.uni-bonn.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Bremen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 8607,
+    "tier": 3,
+    "university_link": "http://www.uni-bremen.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t der Bundeswehr Hamburg",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Munster",
+    "fee": 2189,
+    "tier": 2,
+    "university_link": "http://www.unibw-hamburg.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t der Bundeswehr M\u00fcnchen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 2286,
+    "tier": 2,
+    "university_link": "http://www.unibw-muenchen.de/"
+  },
+  {
+    "university_name": "Technische Universit\u00e4t Dortmund",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 12532,
+    "tier": 3,
+    "university_link": "http://www.tu-dortmund.de/"
+  },
+  {
+    "university_name": "Heinrich-Heine Universit\u00e4t D\u00fcsseldorf",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 10442,
+    "tier": 3,
+    "university_link": "http://www.uni-duesseldorf.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Duisburg-Essen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2448,
+    "tier": 1,
+    "university_link": "http://www.uni-duisburg-essen.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Erfurt",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 14875,
+    "tier": 3,
+    "university_link": "http://www.uni-erfurt.de/"
+  },
+  {
+    "university_name": "Friedrich-Alexander Universit\u00e4t Erlangen-N\u00fcrnberg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 844,
+    "tier": 1,
+    "university_link": "https://www.fau.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Flensburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 2552,
+    "tier": 2,
+    "university_link": "http://www.uni-flensburg.de/"
+  },
+  {
+    "university_name": "Johann Wolfgang Goethe Universit\u00e4t Frankfurt am Main",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 5689,
+    "tier": 3,
+    "university_link": "http://www.uni-frankfurt.de/"
+  },
+  {
+    "university_name": "Albert-Ludwigs-Universit\u00e4t Freiburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 9907,
+    "tier": 3,
+    "university_link": "http://www.uni-freiburg.de/"
+  },
+  {
+    "university_name": "Justus Liebig Universit\u00e4t Gie\u00dfen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 1993,
+    "tier": 2,
+    "university_link": "http://www.uni-giessen.de/"
+  },
+  {
+    "university_name": "Georg-August Universit\u00e4t G\u00f6ttingen",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 2650,
+    "tier": 2,
+    "university_link": "http://www.uni-goettingen.de/"
+  },
+  {
+    "university_name": "Ernst-Moritz-Arndt Universit\u00e4t Greifswald",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 629,
+    "tier": 2,
+    "university_link": "http://www.uni-greifswald.de/"
+  },
+  {
+    "university_name": "Martin-Luther Universit\u00e4t Halle-Wittenberg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2256,
+    "tier": 2,
+    "university_link": "http://www.uni-halle.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Hamburg",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Giessen",
+    "fee": 6264,
+    "tier": 3,
+    "university_link": "http://www.uni-hamburg.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Hannover",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 13920,
+    "tier": 3,
+    "university_link": "http://www.uni-hannover.de/"
+  },
+  {
+    "university_name": "Ruprecht-Karls-Universit\u00e4t Heidelberg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 5196,
+    "tier": 3,
+    "university_link": "http://www.uni-heidelberg.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Hildesheim",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 11887,
+    "tier": 3,
+    "university_link": "http://www.uni-hildesheim.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Hohenheim",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Oldenburg",
+    "fee": 7096,
+    "tier": 3,
+    "university_link": "http://www.uni-hohenheim.de/"
+  },
+  {
+    "university_name": "Friedrich-Schiller Universit\u00e4t Jena",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 2115,
+    "tier": 2,
+    "university_link": "http://www.uni-jena.de/"
+  },
+  {
+    "university_name": "Karlsruher Institut f\u00fcr Technologie",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Karlsruhe",
+    "fee": 14091,
+    "tier": 3,
+    "university_link": "http://www.kit.edu/"
+  },
+  {
+    "university_name": "Universit\u00e4t Kassel",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 602,
+    "tier": 2,
+    "university_link": "http://www.uni-kassel.de/"
+  },
+  {
+    "university_name": "Christian-Albrechts-Universit\u00e4t Kiel",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 2896,
+    "tier": 2,
+    "university_link": "http://www.uni-kiel.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Kaiserslautern",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 13593,
+    "tier": 3,
+    "university_link": "http://www.uni-kl.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Koblenz-Landau",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Cologne",
+    "fee": 2283,
+    "tier": 2,
+    "university_link": "http://www.uni-koblenz-landau.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t K\u00f6ln",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 1399,
+    "tier": 2,
+    "university_link": "http://www.uni-koeln.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Konstanz",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 7733,
+    "tier": 3,
+    "university_link": "http://www.uni-konstanz.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Leipzig",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 7348,
+    "tier": 3,
+    "university_link": "http://www.uni-leipzig.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t L\u00fcneburg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 13550,
+    "tier": 3,
+    "university_link": "http://www.uni-lueneburg.de/"
+  },
+  {
+    "university_name": "Otto-von-Guericke Universit\u00e4t Magdeburg",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Heidelberg",
+    "fee": 14071,
+    "tier": 3,
+    "university_link": "http://www.uni-magdeburg.de/"
+  },
+  {
+    "university_name": "Johannes-Gutenberg Universit\u00e4t Mainz",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 2697,
+    "tier": 2,
+    "university_link": "http://www.uni-mainz.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Mannheim",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 2321,
+    "tier": 2,
+    "university_link": "http://www.uni-mannheim.de/"
+  },
+  {
+    "university_name": "Phillips-Universit\u00e4t Marburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 14374,
+    "tier": 3,
+    "university_link": "http://www.uni-marburg.de/"
+  },
+  {
+    "university_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 14713,
+    "tier": 3,
+    "university_link": "http://www.lmu.de/"
+  },
+  {
+    "university_name": "Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Freiburg",
+    "fee": 9775,
+    "tier": 3,
+    "university_link": "http://www.uni-muenster.de/"
+  },
+  {
+    "university_name": "Carl von Ossietzky Universit\u00e4t Oldenburg",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 14194,
+    "tier": 3,
+    "university_link": "https://uol.de"
+  },
+  {
+    "university_name": "Universit\u00e4t Osnabr\u00fcck",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Munster",
+    "fee": 9872,
+    "tier": 3,
+    "university_link": "http://www.uni-osnabrueck.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Paderborn",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 1991,
+    "tier": 1,
+    "university_link": "http://www.uni-paderborn.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Passau",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 10351,
+    "tier": 3,
+    "university_link": "http://www.uni-passau.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Potsdam",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Augsburg",
+    "fee": 14378,
+    "tier": 3,
+    "university_link": "http://www.uni-potsdam.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Regensburg",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Essen",
+    "fee": 9882,
+    "tier": 3,
+    "university_link": "http://www.uni-regensburg.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Rostock",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 2210,
+    "tier": 1,
+    "university_link": "http://www.uni-rostock.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t des Saarlandes",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Darmstadt",
+    "fee": 7986,
+    "tier": 3,
+    "university_link": "http://www.uni-saarland.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Siegen",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 2078,
+    "tier": 2,
+    "university_link": "http://www.uni-siegen.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Stuttgart",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 10907,
+    "tier": 3,
+    "university_link": "http://www.uni-stuttgart.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Trier",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 11022,
+    "tier": 3,
+    "university_link": "http://www.uni-trier.de/"
+  },
+  {
+    "university_name": "Eberhard-Karls-Universit\u00e4t T\u00fcbingen",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 11967,
+    "tier": 3,
+    "university_link": "http://www.uni-tuebingen.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t Ulm",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 14133,
+    "tier": 3,
+    "university_link": "http://www.uni-ulm.de/"
+  },
+  {
+    "university_name": "Hochschule Vechta",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 644,
+    "tier": 1,
+    "university_link": "http://www.uni-vechta.de/"
+  },
+  {
+    "university_name": "Bauhaus Universit\u00e4t Weimar",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 1327,
+    "tier": 2,
+    "university_link": "http://www.uni-weimar.de/"
+  },
+  {
+    "university_name": "Private Universit\u00e4t Witten/Herdecke",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 7150,
+    "tier": 3,
+    "university_link": "http://www.uni-wh.de/"
+  },
+  {
+    "university_name": "Bayerische Julius-Maximilians-Universit\u00e4t W\u00fcrzburg",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 1881,
+    "tier": 2,
+    "university_link": "http://www.uni-wuerzburg.de/"
+  },
+  {
+    "university_name": "Bergische Universit\u00e4t Gesamthochschule Wuppertal",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Chemnitz",
+    "fee": 8144,
+    "tier": 3,
+    "university_link": "http://www.uni-wuppertal.de/"
+  },
+  {
+    "university_name": "WHU \u2013 Otto Beisheim School of Management",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Freiburg",
+    "fee": 7405,
+    "tier": 3,
+    "university_link": "https://www.whu.edu/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 9700,
+    "tier": 3,
+    "university_link": "http://www.dhbw.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Heidenheim",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 1052,
+    "tier": 1,
+    "university_link": "http://www.heidenheim.dhbw.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Center for Advanced Studies (CAS)",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 11175,
+    "tier": 3,
+    "university_link": "http://www.cas.dhbw.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg L\u00f6rrach",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Osnabruck",
+    "fee": 6242,
+    "tier": 3,
+    "university_link": "http://www.dhbw-loerrach.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Mosbach",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 661,
+    "tier": 2,
+    "university_link": "http://www.dhbw-mosbach.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Ravensburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 1165,
+    "tier": 2,
+    "university_link": "http://www.ravensburg.dhbw.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Stuttgart",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 6025,
+    "tier": 3,
+    "university_link": "http://www.dhbw-stuttgart.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Villingen-Schwenningen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 5698,
+    "tier": 3,
+    "university_link": "http://www.dhbw-vs.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Heilbronn",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 914,
+    "tier": 2,
+    "university_link": "http://www.heilbronn.dhbw.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-W\u00fcrttemberg Karlsruhe",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 2365,
+    "tier": 2,
+    "university_link": "http://www.dhbw-karlsruhe.de/"
+  },
+  {
+    "university_name": "Duale Hochschule Baden-Wuerttemberg Mannheim",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 12005,
+    "tier": 3,
+    "university_link": "http://www.dhbw-mannheim.de/"
+  },
+  {
+    "university_name": "Hochschule Hannover",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 13005,
+    "tier": 3,
+    "university_link": "https://www.hs-hannover.de/"
+  },
+  {
+    "university_name": "Staatliche Studienakademie Bautzen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 8328,
+    "tier": 3,
+    "university_link": "https://www.ba-bautzen.de/"
+  },
+  {
+    "university_name": "Technische Hochschule Mittelhessen",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 864,
+    "tier": 2,
+    "university_link": "https://www.thm.de"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Wirtschaft und Gesellschaft Ludwigshafen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 7551,
+    "tier": 3,
+    "university_link": "https://www.hwg-lu.de"
+  },
+  {
+    "university_name": "Leuphana Universit\u00e4t L\u00fcneburg",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Munich",
+    "fee": 560,
+    "tier": 2,
+    "university_link": "https://www.leuphana.de"
+  },
+  {
+    "university_name": "Ostbayerische Technische Hochschule Amberg-Weiden",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 11750,
+    "tier": 3,
+    "university_link": "https://www.oth-aw.de/"
+  },
+  {
+    "university_name": "Musikhochschule L\u00fcbeck",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Kassel",
+    "fee": 1209,
+    "tier": 2,
+    "university_link": "https://www.mh-luebeck.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik und Theater M\u00fcnchen",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Wurzburg",
+    "fee": 8341,
+    "tier": 3,
+    "university_link": "https://website.musikhochschule-muenchen.de/"
+  },
+  {
+    "university_name": "Universit\u00e4t der K\u00fcnste Berlin",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 5695,
+    "tier": 3,
+    "university_link": "https://www.udk-berlin.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik und Tanz K\u00f6ln",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Essen",
+    "fee": 1222,
+    "tier": 2,
+    "university_link": "https://www.hfmt-koeln.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik Carl Maria von Weber",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Dresden",
+    "fee": 1013,
+    "tier": 2,
+    "university_link": "https://www.hfmdd.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik und Darstellende Kunst Stuttgart",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Stuttgart",
+    "fee": 10115,
+    "tier": 3,
+    "university_link": "https://www.hmdk-stuttgart.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr K\u00fcnste Bremen",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Gottingen",
+    "fee": 1350,
+    "tier": 1,
+    "university_link": "https://www.hfk-bremen.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik und Theater \u201eFelix Mendelssohn Bartholdy\u201c Leipzig",
+    "country": "Germany",
+    "state": "Saxony",
+    "area": "Leipzig",
+    "fee": 7264,
+    "tier": 3,
+    "university_link": "https://www.hmt-leipzig.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik, Theater und Medien Hannover",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Brunswick",
+    "fee": 2014,
+    "tier": 1,
+    "university_link": "https://www.hmtm-hannover.de"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Musik Detmold",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Wiesbaden",
+    "fee": 9965,
+    "tier": 3,
+    "university_link": "https://www.hfm-detmold.de/"
+  },
+  {
+    "university_name": "Deutsche Universit\u00e4t f\u00fcr Verwaltungswissenschaften Speyer",
+    "country": "Germany",
+    "state": "Berlin",
+    "area": "Berlin",
+    "fee": 12436,
+    "tier": 3,
+    "university_link": "https://www.uni-speyer.de/"
+  },
+  {
+    "university_name": "Europa-Universit\u00e4t Viadrina",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 1344,
+    "tier": 2,
+    "university_link": "https://www.europa-uni.de"
+  },
+  {
+    "university_name": "Frankfurt School of Finance & Management",
+    "country": "Germany",
+    "state": "Hesse",
+    "area": "Frankfurt",
+    "fee": 2534,
+    "tier": 2,
+    "university_link": "https://www.frankfurt-school.de/"
+  },
+  {
+    "university_name": "Hochschule f\u00fcr Fernsehen und Film M\u00fcnchen",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Tubingen",
+    "fee": 12768,
+    "tier": 3,
+    "university_link": "https://www.hff-muenchen.de/"
+  },
+  {
+    "university_name": "IST-Hochschule fur Management",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Nuremberg",
+    "fee": 13801,
+    "tier": 3,
+    "university_link": "https://www.ist-hochschule.de/"
+  },
+  {
+    "university_name": "EBS Universit\u00e4t",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 6569,
+    "tier": 3,
+    "university_link": "https://www.ebs.edu/"
+  },
+  {
+    "university_name": "Hochschule RheinMain",
+    "country": "Germany",
+    "state": "Lower Saxony",
+    "area": "Hanover",
+    "fee": 14235,
+    "tier": 3,
+    "university_link": "https://www.hs-rm.de/"
+  },
+  {
+    "university_name": "Rosenheim University of Applied Sciences",
+    "country": "Germany",
+    "state": "Bavaria",
+    "area": "Augsburg",
+    "fee": 1020,
+    "tier": 2,
+    "university_link": "https://th-rosenheim.de"
+  },
+  {
+    "university_name": "Karl-Schiller-Berufskolleg (KSBK)",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Dortmund",
+    "fee": 800,
+    "tier": 2,
+    "university_link": "http://www.ksbk-do.de/"
+  },
+  {
+    "university_name": "Westphalian University of Applied Sciences",
+    "country": "Germany",
+    "state": "North Rhine-Westphalia",
+    "area": "Aachen",
+    "fee": 10102,
+    "tier": 3,
+    "university_link": "https://www.w-hs.de/"
+  },
+  {
+    "university_name": "Technische Hochschule Ulm",
+    "country": "Germany",
+    "state": "Baden-Wuerttemberg",
+    "area": "Mannheim",
+    "fee": 14861,
+    "tier": 3,
+    "university_link": "https://www.thu.de/"
+  }
+]
