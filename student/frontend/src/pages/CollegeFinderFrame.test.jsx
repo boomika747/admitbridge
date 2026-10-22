@@ -6,7 +6,7 @@ import CollegeFinderFrame from './CollegeFinderFrame';
 
 describe('CollegeFinderFrame Component', () => {
   beforeEach(() => {
-    localStorage.clear();
+    window.localStorage.clear();
   });
 
   it('renders iframe successfully', () => {
@@ -21,7 +21,7 @@ describe('CollegeFinderFrame Component', () => {
       budget: 30000,
       country: "US"
     };
-    localStorage.setItem('studentProfile', JSON.stringify(mockProfile));
+    window.localStorage.setItem('studentProfile', JSON.stringify(mockProfile));
 
     render(<CollegeFinderFrame />);
     const iframe = screen.getByTitle('College Finder ML Model');

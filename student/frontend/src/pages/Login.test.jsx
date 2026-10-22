@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import { BrowserRouter } from 'react-router-dom';
 import Login from './Login';
 
@@ -16,7 +17,7 @@ describe('Login Component', () => {
     expect(emailInput).toBeInTheDocument();
     
     // Check for password input
-    const passwordInput = screen.getByLabelText(/Password/i);
+    const passwordInput = screen.getByLabelText(/^Password$/i);
     expect(passwordInput).toBeInTheDocument();
     
     // Check for submit button

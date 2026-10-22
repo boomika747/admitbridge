@@ -29,7 +29,11 @@ const Login = () => {
     setLoading(true);
     
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/login`, {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const consultancyPortalUrl = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || 'http://localhost:5174';
+      const adminPortalUrl = import.meta.env.VITE_ADMIN_PORTAL_URL || 'http://localhost:5175';
+
+      const response = await fetch(`${apiUrl}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password, role })
@@ -47,9 +51,9 @@ const Login = () => {
         const redirectTo = location.state?.redirectTo || '/dashboard';
         navigate(redirectTo);
       } else if (role === 'consultancy') {
-        window.location.href = `${import.meta.env.VITE_CONSULTANCY_PORTAL_URL}/?token=${data.token}`;
+        window.location.href = `${consultancyPortalUrl}/?token=${data.token}`;
       } else if (role === 'admin') {
-        window.location.href = `${import.meta.env.VITE_ADMIN_PORTAL_URL}/?token=${data.token}`;
+        window.location.href = `${adminPortalUrl}/?token=${data.token}`;
       }
     } catch (err) {
       setError(err.message);
@@ -74,7 +78,7 @@ const Login = () => {
             <button type="button" role="tab" aria-selected={role === 'admin'} aria-label="Login as Admin" className={`role-tab ${role === 'admin' ? 'active' : ''}`} onClick={() => setRole('admin')}>Admin</button>
           </div>
 
-          <form className="auth-form" onSubmit={handleLogin} aria-label="Login Form">
+          <form className="auth-form" onSubmit={handleLogin} aria-label="Login Form" noValidate>
             {error && <div className="error-message" role="alert" style={{color: 'var(--primary-color)', marginBottom: '10px', fontWeight: 'bold'}}>{error}</div>}
             <div className="form-group">
               <label htmlFor="emailInput">Email Address</label>

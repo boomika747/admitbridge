@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 const CollegeFinderFrame = () => {
-  const [iframeUrl, setIframeUrl] = useState(import.meta.env.VITE_API_URL.replace('/api', '/'));
+  const baseApiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace('/api', '/');
+  const [iframeUrl, setIframeUrl] = useState(baseApiUrl);
 
   useEffect(() => {
-    const savedProfile = localStorage.getItem('studentProfile');
+    const savedProfile = typeof window !== 'undefined' && window.localStorage ? window.localStorage.getItem('studentProfile') : null;
     if (savedProfile) {
       try {
         const profile = JSON.parse(savedProfile);
@@ -22,13 +23,13 @@ const CollegeFinderFrame = () => {
 
         const queryString = params.toString();
         if (queryString) {
-          setIframeUrl(`${import.meta.env.VITE_API_URL.replace('/api', '/')}/?${queryString}`);
+          setIframeUrl(`${baseApiUrl}/?${queryString}`);
         }
       } catch (e) {
         console.error("Error parsing profile data", e);
       }
     }
-  }, []);
+  }, [baseApiUrl]);
   return (
     <div className="college-finder-frame fade-in" style={{ 
       height: 'calc(100vh - var(--header-height))', 

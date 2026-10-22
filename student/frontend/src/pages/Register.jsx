@@ -24,7 +24,11 @@ const Register = () => {
     setLoading(true);
     
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/register`, {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const consultancyPortalUrl = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || 'http://localhost:5174';
+      const adminPortalUrl = import.meta.env.VITE_ADMIN_PORTAL_URL || 'http://localhost:5175';
+
+      const response = await fetch(`${apiUrl}/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password, name, role })
@@ -41,9 +45,9 @@ const Register = () => {
       if (role === 'student') {
         navigate('/dashboard');
       } else if (role === 'consultancy') {
-        window.location.href = `${import.meta.env.VITE_CONSULTANCY_PORTAL_URL}/?token=${data.token}`;
+        window.location.href = `${consultancyPortalUrl}/?token=${data.token}`;
       } else if (role === 'admin') {
-        window.location.href = `${import.meta.env.VITE_ADMIN_PORTAL_URL}/?token=${data.token}`;
+        window.location.href = `${adminPortalUrl}/?token=${data.token}`;
       }
     } catch (err) {
       setError(err.message);

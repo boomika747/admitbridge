@@ -1,23 +1,39 @@
 // Fetch options on load
 document.addEventListener('DOMContentLoaded', async () => {
+    const defaultBranches = [
+        "Artificial Intelligence",
+        "Civil Engineering",
+        "Computer Science",
+        "Data Science",
+        "Electrical Engineering",
+        "Electronics and Communication",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Software Engineering"
+    ];
+
+    const branchSelect = document.getElementById('branch');
+    const populateBranches = (branches) => {
+        branchSelect.innerHTML = '<option value="">Select Branch</option>';
+        branches.forEach(branch => {
+            const opt = document.createElement('option');
+            opt.value = branch;
+            opt.textContent = branch;
+            branchSelect.appendChild(opt);
+        });
+    };
+
     try {
         const response = await fetch('/api/options');
         const options = await response.json();
-        
-        const branchSelect = document.getElementById('branch');
-        branchSelect.innerHTML = '<option value="">Select Branch</option>';
-        
-        if (options.branches) {
-            options.branches.forEach(branch => {
-                const opt = document.createElement('option');
-                opt.value = branch;
-                opt.textContent = branch;
-                branchSelect.appendChild(opt);
-            });
+        if (options && Array.isArray(options.branches) && options.branches.length > 0) {
+            populateBranches(options.branches);
+        } else {
+            populateBranches(defaultBranches);
         }
     } catch (error) {
-        console.error("Failed to load options:", error);
-        document.getElementById('branch').innerHTML = '<option value="">Error loading branches</option>';
+        console.warn("Using default branch list:", error);
+        populateBranches(defaultBranches);
     }
 
     // Auto-fill from query parameters
@@ -108,11 +124,15 @@ document.getElementById('prediction-form').addEventListener('submit', async (e) 
     };
     
     try {
+        const token = localStorage.getItem('token') || new URLSearchParams(window.location.search).get('token');
+        const headers = { 'Content-Type': 'application/json' };
+        if (token) {
+            headers['Authorization'] = `Bearer ${token}`;
+        }
+
         const response = await fetch('/api/recommend', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: headers,
             body: JSON.stringify(data)
         });
         

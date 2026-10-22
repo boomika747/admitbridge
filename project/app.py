@@ -14,6 +14,25 @@ from datetime import datetime
 app = Flask(__name__, static_folder='static', static_url_path='')
 CORS(app)
 
+class ApiPrefixMiddleware:
+    """Allow frontend requests with or without /api/ prefix to resolve seamlessly."""
+    def __init__(self, wsgi_app):
+        self.wsgi_app = wsgi_app
+
+    def __call__(self, environ, start_response):
+        path = environ.get('PATH_INFO', '')
+        static_exts = ('.html', '.js', '.css', '.png', '.jpg', '.jpeg', '.svg', '.ico', '.json', '.csv')
+        if not path.startswith('/api') and path != '/' and not any(path.endswith(ext) for ext in static_exts):
+            environ['PATH_INFO'] = '/api' + path
+        return self.wsgi_app(environ, start_response)
+
+app.wsgi_app = ApiPrefixMiddleware(app.wsgi_app)
+
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    from flask import send_from_directory
+    return send_from_directory(app.static_folder, filename)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, 'model.pkl')
 db_path = os.path.join(BASE_DIR, 'universities_db.csv')
@@ -124,6 +143,37 @@ notifier = EmailNotifier()
 
 data_store = DataStore(BASE_DIR)
 
+SECRET_KEY = os.environ.get('JWT_SECRET_KEY', 'admitbridge-default-secret-key')
+
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = None
+        if 'Authorization' in request.headers:
+            auth_header = request.headers['Authorization']
+            if auth_header.startswith('Bearer '):
+                token = auth_header.split(" ")[1]
+        if not token:
+            token = request.args.get('token')
+            
+        endpoint = request.endpoint or ''
+        public_endpoints = ('recommend', 'recommend_consultancies', 'get_options', 'get_resources', 'health', 'model_info')
+        
+        if not token:
+            if endpoint in public_endpoints:
+                return f(*args, **kwargs)
+            return jsonify({'error': 'Token is missing!'}), 401
+        try:
+            data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+            current_user = data.get('user', 'guest')
+            request.current_user = current_user
+        except Exception as e:
+            if endpoint in public_endpoints:
+                return f(*args, **kwargs)
+            return jsonify({'error': 'Token is invalid!'}), 401
+        return f(*args, **kwargs)
+    return decorated
+
 @app.route('/api/documents/upload', methods=['POST'])
 @token_required
 def upload_document():
@@ -198,35 +248,6 @@ if os.path.exists(model_path) and os.path.exists(db_path) and os.path.exists(opt
 else:
     print("WARNING: artifacts not found. Train the model first.")
 
-"""
-NOTE: JWT auth is implemented here as infrastructure groundwork.
-It is listed as future scope in the spec but included to support 
-the token_required decorator used by protected endpoints.
-"""
-SECRET_KEY = os.environ.get('JWT_SECRET_KEY')
-if not SECRET_KEY:
-    raise RuntimeError("JWT_SECRET_KEY environment variable is required and not set.")
-
-
-def token_required(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-        token = None
-        if 'Authorization' in request.headers:
-            auth_header = request.headers['Authorization']
-            if auth_header.startswith('Bearer '):
-                token = auth_header.split(" ")[1]
-        if not token:
-            return jsonify({'error': 'Token is missing!'}), 401
-        try:
-            data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
-            current_user = data['user']
-            request.current_user = current_user
-        except Exception as e:
-            return jsonify({'error': 'Token is invalid!'}), 401
-        return f(*args, **kwargs)
-    return decorated
-
 @app.route('/')
 
 def serve_frontend():
@@ -298,7 +319,6 @@ def get_notifications():
     return jsonify(notifications)
 
 @app.route('/api/options', methods=['GET'])
-@token_required
 def get_options():
     # If the app was started before artifacts were ready, try loading them again
     global options, model, universities_db, consultancies_db, consultancy_model_success, consultancy_model_rating

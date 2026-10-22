@@ -297,7 +297,7 @@ const Home = () => {
             </div>
 
             {/* Consultancy Portal Card */}
-            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_CONSULTANCY_PORTAL_URL}>
+            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || 'http://localhost:5174'}>
               <div className="portal-icon consultancy-icon">
                 <Users size={32} />
               </div>
@@ -310,7 +310,7 @@ const Home = () => {
             </div>
 
             {/* Admin Portal Card */}
-            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_ADMIN_PORTAL_URL}>
+            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_ADMIN_PORTAL_URL || 'http://localhost:5175'}>
               <div className="portal-icon admin-icon">
                 <ShieldCheck size={32} />
               </div>

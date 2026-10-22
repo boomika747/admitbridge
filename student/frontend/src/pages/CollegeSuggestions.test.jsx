@@ -4,14 +4,7 @@ import '@testing-library/jest-dom';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import CollegeSuggestions from './CollegeSuggestions';
 
-// Mock the global fetch which is used by authFetch
-global.fetch = vi.fn();
-
 describe('CollegeSuggestions Component', () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
-
   it('renders college cards successfully after fetching data', async () => {
     const mockData = [
       {
@@ -23,10 +16,14 @@ describe('CollegeSuggestions Component', () => {
       }
     ];
     
-    global.fetch.mockResolvedValueOnce({
-      ok: true,
-      json: async () => mockData
-    });
+    const mockFn = vi.fn().mockImplementation(() => 
+      Promise.resolve({
+        ok: true,
+        json: () => Promise.resolve(mockData)
+      })
+    );
+    window.fetch = mockFn;
+    globalThis.fetch = mockFn;
 
     render(<CollegeSuggestions />);
 
