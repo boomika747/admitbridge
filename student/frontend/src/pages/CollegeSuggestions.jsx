@@ -47,7 +47,7 @@ const CollegeSuggestions = () => {
     const fetchUniversities = async () => {
       try {
         setError(null);
-        const response = await authFetch('/real_universities_list.json');
+        const response = await authFetch(`${import.meta.env.BASE_URL}real_universities_list.json`);
         if (!response.ok) throw new Error("Network response was not ok");
         const data = await response.json();
         

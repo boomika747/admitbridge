@@ -12,6 +12,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "build:pages": "node scripts/build-pages.js",
     "lint": "turbo run lint",
     "install:all": "npm install",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""

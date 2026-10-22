@@ -2,7 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? (process.env.VITE_BASE_PATH || '/admitbridge/') : '/',
   plugins: [react()],
   server: {
     // Port 5173 as defined in System Architecture (see root README.md)
@@ -13,4 +14,4 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./src/setupTests.js']
   }
-})
+}))

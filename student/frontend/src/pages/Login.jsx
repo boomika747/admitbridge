@@ -30,8 +30,8 @@ const Login = () => {
     
     try {
       const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-      const consultancyPortalUrl = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || 'http://localhost:5174';
-      const adminPortalUrl = import.meta.env.VITE_ADMIN_PORTAL_URL || 'http://localhost:5175';
+      const consultancyPortalUrl = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}consultancy/` : 'http://localhost:5174');
+      const adminPortalUrl = import.meta.env.VITE_ADMIN_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}admin/` : 'http://localhost:5175');
 
       const response = await fetch(`${apiUrl}/auth/login`, {
         method: 'POST',
@@ -51,11 +51,32 @@ const Login = () => {
         const redirectTo = location.state?.redirectTo || '/dashboard';
         navigate(redirectTo);
       } else if (role === 'consultancy') {
-        window.location.href = `${consultancyPortalUrl}/?token=${data.token}`;
+        const sep = consultancyPortalUrl.includes('?') ? '&' : '?';
+        window.location.href = `${consultancyPortalUrl}${sep}token=${data.token}`;
       } else if (role === 'admin') {
-        window.location.href = `${adminPortalUrl}/?token=${data.token}`;
+        const sep = adminPortalUrl.includes('?') ? '&' : '?';
+        window.location.href = `${adminPortalUrl}${sep}token=${data.token}`;
       }
     } catch (err) {
+      if (import.meta.env.PROD && (err.name === 'TypeError' || (err.message && err.message.toLowerCase().includes('fetch')))) {
+        // Fallback for static GitHub Pages demonstration
+        const demoToken = 'demo-token-' + Date.now();
+        const demoUser = { email, name: email.split('@')[0], role };
+        localStorage.setItem('token', demoToken);
+        localStorage.setItem('user', JSON.stringify(demoUser));
+        if (role === 'student') {
+          navigate(location.state?.redirectTo || '/dashboard');
+          return;
+        } else if (role === 'consultancy') {
+          const sep = consultancyPortalUrl.includes('?') ? '&' : '?';
+          window.location.href = `${consultancyPortalUrl}${sep}token=${demoToken}`;
+          return;
+        } else if (role === 'admin') {
+          const sep = adminPortalUrl.includes('?') ? '&' : '?';
+          window.location.href = `${adminPortalUrl}${sep}token=${demoToken}`;
+          return;
+        }
+      }
       setError(err.message);
     } finally {
       setLoading(false);

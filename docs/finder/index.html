@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniMatch - Discover Your Dream University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+
+        <header>
+            <h1>UniMatch</h1>
+            <p>Find universities with the highest acceptance rates tailored to your profile.</p>
+        </header>
+
+        <main>
+            <div class="form-container glass-panel">
+                <form id="prediction-form">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select id="country" name="country" required>
+                                <option value="">Select Country</option>
+                                <option value="US">US</option>
+                                <option value="UK">UK</option>
+                                <option value="Germany">Germany</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="branch">Branch</label>
+                            <select id="branch" name="branch" required>
+                                <option value="">Loading...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="intake">Intake (Optional)</label>
+                            <select id="intake" name="intake">
+                                <option value="">Any Intake</option>
+                                <option value="Spring">Spring</option>
+                                <option value="Fall">Fall</option>
+                                <option value="Summer">Summer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Max Budget (Tuition USD)</label>
+                            <input type="number" id="budget" name="budget" placeholder="e.g. 40000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="cgpa">CGPA (out of 10.0)</label>
+                            <input type="number" id="cgpa" name="cgpa" step="0.01" min="0" max="10" placeholder="e.g. 8.5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="backlogs">Backlogs</label>
+                            <input type="number" id="backlogs" name="backlogs" min="0" max="20" placeholder="e.g. 0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="exam-type">Test Type</label>
+                            <select id="exam-type" name="exam_type" required>
+                                <option value="gre">GRE</option>
+                                <option value="toefl">TOEFL</option>
+                                <option value="ielts">IELTS</option>
+                                <option value="duolingo">Duolingo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exam-score">Test Score</label>
+                            <input type="number" id="exam-score" name="exam_score" placeholder="e.g. 320" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit-btn">
+                        <span>Discover Matches</span>
+                        <div class="spinner" id="btn-spinner"></div>
+                    </button>
+                </form>
+            </div>
+
+            <div class="results-section" id="results-section" style="display: none;">
+                <h2>Your Top Matches</h2>
+                <div class="search-container" style="margin-bottom: 2rem; width: 100%; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    <input type="text" id="uni-search" placeholder="Search for a specific university in results..." class="search-input">
+                </div>
+                <div class="cards-grid" id="results-grid">
+                    <!-- Cards will be injected here via JS -->
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js?v=2"></script>
+</body>
+</html>

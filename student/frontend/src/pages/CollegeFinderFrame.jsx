@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 const CollegeFinderFrame = () => {
-  const baseApiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace('/api', '/');
+  const defaultUrl = import.meta.env.PROD 
+    ? `${import.meta.env.BASE_URL}finder/` 
+    : (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace('/api', '/');
+  const baseApiUrl = import.meta.env.VITE_COLLEGE_FINDER_URL || defaultUrl;
   const [iframeUrl, setIframeUrl] = useState(baseApiUrl);
 
   useEffect(() => {
@@ -23,7 +26,8 @@ const CollegeFinderFrame = () => {
 
         const queryString = params.toString();
         if (queryString) {
-          setIframeUrl(`${baseApiUrl}/?${queryString}`);
+          const sep = baseApiUrl.includes('?') ? '&' : '?';
+          setIframeUrl(`${baseApiUrl}${sep}${queryString}`);
         }
       } catch (e) {
         console.error("Error parsing profile data", e);

@@ -20,7 +20,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL || '/'}>
       <ErrorBoundary>
         <Routes>
           <Route path="/" element={<Home />} />

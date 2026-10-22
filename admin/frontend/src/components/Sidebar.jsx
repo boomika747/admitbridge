@@ -35,14 +35,22 @@ const Sidebar = () => {
       </nav>
       
       <div className="sidebar-footer">
-        <a href={import.meta.env.VITE_STUDENT_PORTAL_URL || 'http://localhost:5173'} className="nav-item" style={{marginBottom: '10px', textDecoration: 'none'}}>
-          <span className="nav-icon"><Home size={20} /></span>
-          <span className="nav-name">Back to Home</span>
-        </a>
-        <button className="logout-btn" onClick={() => window.location.href = `${import.meta.env.VITE_STUDENT_PORTAL_URL || 'http://localhost:5173'}/login`}>
-          <LogOut size={20} />
-          <span>Logout</span>
-        </button>
+        {(() => {
+          const studentPortalUrl = import.meta.env.VITE_STUDENT_PORTAL_URL || (import.meta.env.PROD ? '/admitbridge/' : 'http://localhost:5173');
+          const loginUrl = `${studentPortalUrl.replace(/\/$/, '')}/login`;
+          return (
+            <>
+              <a href={studentPortalUrl} className="nav-item" style={{marginBottom: '10px', textDecoration: 'none'}}>
+                <span className="nav-icon"><Home size={20} /></span>
+                <span className="nav-name">Back to Home</span>
+              </a>
+              <button className="logout-btn" onClick={() => window.location.href = loginUrl}>
+                <LogOut size={20} />
+                <span>Logout</span>
+              </button>
+            </>
+          );
+        })()}
       </div>
     </div>
   );
