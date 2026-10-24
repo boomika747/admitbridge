@@ -24,6 +24,7 @@ const Sidebar = () => {
     { path: '/status', name: 'Status Tracking', icon: <Activity size={20} /> },
     { path: '/messages', name: 'Consultant Messages', icon: <MessageSquare size={20} /> },
     { path: '/college-finder', name: 'College Finder ML', icon: <Search size={20} /> },
+    { path: '/consultancy-finder', name: 'Consultancy Match ML', icon: <Compass size={20} /> },
   ];
 
   return (

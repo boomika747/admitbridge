@@ -9,6 +9,7 @@ import Payments from './pages/Payments';
 import StatusTracking from './pages/StatusTracking';
 import Settings from './pages/Settings';
 import CollegeFinderFrame from './pages/CollegeFinderFrame';
+import ConsultancyFinderFrame from './pages/ConsultancyFinderFrame';
 import Explore from './pages/Explore';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -38,6 +39,7 @@ function App() {
             <Route path="/messages" element={<Messages />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/college-finder" element={<CollegeFinderFrame />} />
+            <Route path="/consultancy-finder" element={<ConsultancyFinderFrame />} />
           </Route>
         </Routes>
       </ErrorBoundary>

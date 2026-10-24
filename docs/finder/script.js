@@ -279,7 +279,7 @@ window.handleApply = function(country, uniName) {
     const exam_type = document.getElementById('exam-type').value || '';
     const exam_score = document.getElementById('exam-score').value || '';
     
-    let url = `/consultancy.html?country=${encodeURIComponent(country)}&uni=${encodeURIComponent(uniName)}`;
+    let url = `consultancy.html?country=${encodeURIComponent(country)}&uni=${encodeURIComponent(uniName)}`;
     if (cgpa) url += `&cgpa=${encodeURIComponent(cgpa)}`;
     if (branch) url += `&branch=${encodeURIComponent(branch)}`;
     if (exam_type) url += `&exam_type=${encodeURIComponent(exam_type)}`;

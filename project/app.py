@@ -405,37 +405,61 @@ def recommend_consultancies():
     if consultancies_db is None:
         return jsonify({"error": "Consultancies data not loaded."}), 500
         
-    data = request.json
+    data = request.json or {}
     budget = float(data.get('budget', 0))
-    state = data.get('state', '')
-    area = data.get('area', '')
-    country = data.get('country', '')
+    state = (data.get('state') or '').strip()
+    area = (data.get('area') or '').strip()
+    country = (data.get('country') or '').strip().upper()
     
     eligible = consultancies_db.copy()
     
-    if budget > 0:
-        eligible = eligible[eligible['total_fee_inr'] <= budget]
+    # 1. State filter
     if state:
-        eligible = eligible[eligible['state'] == state]
+        state_match = eligible[eligible['state'].str.lower() == state.lower()]
+        if not state_match.empty:
+            eligible = state_match
+            
+    # 2. Area/District filter (if specific area requested and matches exist)
     if area:
-        eligible = eligible[eligible['area_district'].str.contains(area, case=False, na=False)]
+        area_match = eligible[eligible['area_district'].str.contains(area, case=False, na=False)]
+        if not area_match.empty:
+            eligible = area_match
+            
+    # 3. Country capability filter
     if country:
-        eligible = eligible[eligible['primary_country'] == country]
+        if country == 'US':
+            c_match = eligible[(eligible['primary_country'] == 'US') | (eligible['us_applications_pct'] > 0)]
+        elif country == 'UK':
+            c_match = eligible[(eligible['primary_country'] == 'UK') | (eligible['uk_applications_pct'] > 0)]
+        elif country in ['GERMANY', 'DE']:
+            c_match = eligible[(eligible['primary_country'] == 'Germany') | (eligible['germany_applications_pct'] > 0)]
+        else:
+            c_match = eligible[eligible['primary_country'].str.upper() == country]
+            
+        if not c_match.empty:
+            eligible = c_match
+            
+    # 4. Budget filter (with gentle fallback if budget is too strict)
+    if budget > 0:
+        budget_match = eligible[eligible['total_fee_inr'] <= budget]
+        if not budget_match.empty:
+            eligible = budget_match
         
     if len(eligible) == 0:
-        return jsonify({"recommendations": []})
+        # Ultimate fallback: return top consultancies from the state or general dataset
+        eligible = consultancies_db.head(12)
         
     # Predict success rate and rating using models if available
     if consultancy_model_success is not None and consultancy_model_rating is not None:
-        X_predict = eligible[['state', 'area_district', 'total_fee_inr', 'primary_country']]
-        eligible['predicted_success_rate'] = consultancy_model_success.predict(X_predict).round(1)
-        eligible['predicted_rating'] = consultancy_model_rating.predict(X_predict).round(1)
-        
-        # Override actuals with predictions for display to fulfill user request
-        eligible['success_rate_pct'] = eligible['predicted_success_rate']
-        eligible['rating'] = eligible['predicted_rating']
+        try:
+            X_predict = eligible[['state', 'area_district', 'total_fee_inr', 'primary_country']]
+            eligible['predicted_success_rate'] = consultancy_model_success.predict(X_predict).round(1)
+            eligible['predicted_rating'] = consultancy_model_rating.predict(X_predict).round(1)
+            eligible['success_rate_pct'] = eligible['predicted_success_rate']
+            eligible['rating'] = eligible['predicted_rating']
+        except Exception as e:
+            eligible['success_rate_pct'] = (eligible['successful_applications'] / eligible['students_applied'] * 100).round(1)
     else:
-        # Fallback to calculated/actual if models missing
         eligible['success_rate_pct'] = (eligible['successful_applications'] / eligible['students_applied'] * 100).round(1)
     
     # Sort by predicted rating and success rate
