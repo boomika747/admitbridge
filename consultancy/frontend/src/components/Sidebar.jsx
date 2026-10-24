@@ -33,7 +33,15 @@ const Sidebar = () => {
       </nav>
       <div className="sidebar-footer">
         {(() => {
-          const studentPortalUrl = import.meta.env.VITE_STUDENT_PORTAL_URL || (import.meta.env.PROD ? '/admitbridge/' : 'http://localhost:5173');
+          let studentPortalUrl;
+          if (import.meta.env.DEV) {
+            studentPortalUrl = import.meta.env.VITE_STUDENT_PORTAL_URL || 'http://localhost:5173';
+          } else {
+            const rawBase = import.meta.env.BASE_URL || '/';
+            const rootBase = rawBase.replace(/(consultancy|admin)\/?$/, '');
+            const base = rootBase.endsWith('/') ? rootBase : `${rootBase}/`;
+            studentPortalUrl = `${window.location.origin}${base}`;
+          }
           const loginUrl = `${studentPortalUrl.replace(/\/$/, '')}/login`;
           return (
             <>

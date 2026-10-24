@@ -263,9 +263,9 @@ def login():
     if not email or not password:
         return jsonify({"error": "Missing credentials"}), 400
         
-    # Mock validation - accept any email with 'password'
-    if password != "password":
-        return jsonify({"error": "Invalid credentials. Use 'password' as the password."}), 401
+    # Accept any non-empty password in dev/demo mode
+    if not password or not str(password).strip():
+        return jsonify({"error": "Password cannot be empty"}), 400
 
     token = jwt.encode({
         'user': email,

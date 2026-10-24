@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Search, GraduationCap, Users, ShieldCheck, ChevronRight, Globe, Star, ArrowRight, PlayCircle } from 'lucide-react';
 import logo from '../assets/logo.png';
 import Chatbot from '../components/Chatbot';
+import { getPortalUrl } from '../utils/portalUrls';
 import './Home.css';
 
 // Simple Counter Hook for dynamic numbers
@@ -297,7 +298,7 @@ const Home = () => {
             </div>
 
             {/* Consultancy Portal Card */}
-            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}consultancy/` : 'http://localhost:5174')}>
+            <div className="portal-card" onClick={() => window.location.href = getPortalUrl('consultancy')}>
               <div className="portal-icon consultancy-icon">
                 <Users size={32} />
               </div>
@@ -310,7 +311,7 @@ const Home = () => {
             </div>
 
             {/* Admin Portal Card */}
-            <div className="portal-card" onClick={() => window.location.href = import.meta.env.VITE_ADMIN_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}admin/` : 'http://localhost:5175')}>
+            <div className="portal-card" onClick={() => window.location.href = getPortalUrl('admin')}>
               <div className="portal-icon admin-icon">
                 <ShieldCheck size={32} />
               </div>
@@ -543,8 +544,8 @@ const Home = () => {
                 <a href="#">Geebee</a>
                 
                 <h4 style={{marginTop: '24px'}}>OUR PRODUCTS</h4>
-                <a href="#">Student Portal</a>
-                <a href="#">Consultancy Portal</a>
+                <a href="#" onClick={(e) => { e.preventDefault(); window.location.href = getPortalUrl('student'); }}>Student Portal</a>
+                <a href="#" onClick={(e) => { e.preventDefault(); window.location.href = getPortalUrl('consultancy'); }}>Consultancy Portal</a>
               </div>
             </div>
           </div>

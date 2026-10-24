@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import { getPortalUrl } from '../utils/portalUrls';
 import './Auth.css';
 
 const Register = () => {
@@ -11,6 +12,20 @@ const Register = () => {
   const [role, setRole] = useState('student');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const navigateToRolePortal = (targetRole, token) => {
+    if (targetRole === 'student') {
+      navigate('/dashboard');
+    } else if (targetRole === 'consultancy') {
+      const consultancyPortalUrl = getPortalUrl('consultancy');
+      const sep = consultancyPortalUrl.includes('?') ? '&' : '?';
+      window.location.href = `${consultancyPortalUrl}${sep}token=${token}`;
+    } else if (targetRole === 'admin') {
+      const adminPortalUrl = getPortalUrl('admin');
+      const sep = adminPortalUrl.includes('?') ? '&' : '?';
+      window.location.href = `${adminPortalUrl}${sep}token=${token}`;
+    }
+  };
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -25,8 +40,6 @@ const Register = () => {
     
     try {
       const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-      const consultancyPortalUrl = import.meta.env.VITE_CONSULTANCY_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}consultancy/` : 'http://localhost:5174');
-      const adminPortalUrl = import.meta.env.VITE_ADMIN_PORTAL_URL || (import.meta.env.PROD ? `${import.meta.env.BASE_URL}admin/` : 'http://localhost:5175');
 
       const response = await fetch(`${apiUrl}/auth/register`, {
         method: 'POST',
@@ -42,34 +55,22 @@ const Register = () => {
       localStorage.setItem('token', data.token);
       localStorage.setItem('user', JSON.stringify(data.user));
 
-      if (role === 'student') {
-        navigate('/dashboard');
-      } else if (role === 'consultancy') {
-        const sep = consultancyPortalUrl.includes('?') ? '&' : '?';
-        window.location.href = `${consultancyPortalUrl}${sep}token=${data.token}`;
-      } else if (role === 'admin') {
-        const sep = adminPortalUrl.includes('?') ? '&' : '?';
-        window.location.href = `${adminPortalUrl}${sep}token=${data.token}`;
-      }
+      navigateToRolePortal(role, data.token);
     } catch (err) {
-      if (import.meta.env.PROD && (err.name === 'TypeError' || (err.message && err.message.toLowerCase().includes('fetch')))) {
-        // Fallback for static GitHub Pages demonstration
+      // Fallback for static GitHub Pages demonstration or offline backend
+      const isStaticOrOffline = Boolean(
+        import.meta.env.PROD ||
+        err.name === 'TypeError' ||
+        (err.message && (err.message.toLowerCase().includes('fetch') || err.message.toLowerCase().includes('networkerror') || err.message.toLowerCase().includes('failed to fetch')))
+      );
+
+      if (isStaticOrOffline) {
         const demoToken = 'demo-token-' + Date.now();
         const demoUser = { email, name: name || email.split('@')[0], role };
         localStorage.setItem('token', demoToken);
         localStorage.setItem('user', JSON.stringify(demoUser));
-        if (role === 'student') {
-          navigate('/dashboard');
-          return;
-        } else if (role === 'consultancy') {
-          const sep = consultancyPortalUrl.includes('?') ? '&' : '?';
-          window.location.href = `${consultancyPortalUrl}${sep}token=${demoToken}`;
-          return;
-        } else if (role === 'admin') {
-          const sep = adminPortalUrl.includes('?') ? '&' : '?';
-          window.location.href = `${adminPortalUrl}${sep}token=${demoToken}`;
-          return;
-        }
+        navigateToRolePortal(role, demoToken);
+        return;
       }
       setError(err.message);
     } finally {
@@ -113,7 +114,7 @@ const Register = () => {
           </form>
           
           <p className="auth-footer">
-            Already have an account? <a href="/login">Sign In</a>
+            Already have an account? <Link to="/login">Sign In</Link>
           </p>
         </div>
       </div>
