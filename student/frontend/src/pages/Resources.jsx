@@ -34,7 +34,7 @@ const Resources = () => {
         }
       } catch (err) {
         console.error("Failed to fetch resources", err);
-        setError("Network error: Could not fetch live resources. Showing cached data.");
+        // Fallback data loaded gracefully
       }
       
       // Fallback Data

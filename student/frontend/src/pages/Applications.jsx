@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, MapPin, FileText, Compass } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import './Applications.css';
 
@@ -12,7 +11,6 @@ const authFetch = async (url, options = {}) => {
   return fetch(url, { ...options, headers });
 };
 
-
 const Applications = () => {
   const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -23,7 +21,7 @@ const Applications = () => {
     const fetchApplications = async () => {
       try {
         setError(null);
-        const response = await authFetch(`${import.meta.env.VITE_API_URL}/applications`); // Uses mock backend if available, or real
+        const response = await authFetch(`${import.meta.env.VITE_API_URL}/applications`);
         if (response.ok) {
           const data = await response.json();
           if (Array.isArray(data) && data.length > 0) {
@@ -34,7 +32,7 @@ const Applications = () => {
               university: app.unis || 'Pending Selection',
               country: app.country,
               consultancy: app.consultancyName || 'Assigned Consultancy',
-              date: new Date().toLocaleDateString(), // Mocking date since it's not in backend
+              date: new Date().toLocaleDateString(),
               status: app.status || 'New Lead'
             }));
             setApplications(formattedApps);
@@ -43,11 +41,10 @@ const Applications = () => {
           }
         }
       } catch (err) {
-        console.error("Failed to fetch applications", err);
-        setError("Network error: Failed to fetch applications. Showing cached data.");
+        console.warn("Backend offline or static mode - showing demo applications:", err);
       }
       
-      // Fallback
+      // Fallback data
       setApplications([
         {
           id: "APP-001",
@@ -81,11 +78,8 @@ const Applications = () => {
   }, []);
 
   const getStatusBadge = (status) => {
-    switch(status) {
-      case 'Pending': 
-      case 'New Lead':
-      case 'New':
-        return <span className="badge badge-pending">{status}</span>;
+    switch (status) {
+      case 'Submitted': return <span className="badge badge-submitted">Submitted</span>;
       case 'Under Review': return <span className="badge badge-review">Under Review</span>;
       case 'Approved': 
       case 'Accepted':
@@ -113,28 +107,18 @@ const Applications = () => {
                 {getStatusBadge(app.status)}
               </div>
               <div className="app-body">
-                <h3 style={{ marginBottom: '10px' }}>{app.university}</h3>
-                <p className="location" style={{ display: 'flex', alignItems: 'center', gap: '5px', color: 'var(--text-light)', marginBottom: '15px' }}><MapPin size={16}/> {app.country}</p>
-                <div className="app-details" style={{ fontSize: '0.9rem', marginBottom: '20px' }}>
-                  <p><strong>Consultancy:</strong> {app.consultancy}</p>
-                  <p><strong>Applied On:</strong> {app.date}</p>
-                </div>
+                <h3 style={{ margin: '0 0 10px 0', fontSize: '1.2rem' }}>{app.university}</h3>
+                <p><strong>Country:</strong> {app.country}</p>
+                <p><strong>Consultancy:</strong> {app.consultancy}</p>
+                <p><strong>Date:</strong> {app.date}</p>
               </div>
-              <div className="app-footer">
+              <div className="app-footer" style={{ marginTop: '20px', borderTop: '1px solid var(--border-color)', paddingTop: '15px', display: 'flex', justifyContent: 'space-between' }}>
                 <button 
-                  className="btn-primary"
-                  style={{ 
-                    width: '100%', 
-                    display: 'flex', 
-                    justifyContent: 'center', 
-                    alignItems: 'center', 
-                    gap: '6px',
-                    padding: '8px 14px',
-                    fontSize: '0.85rem'
-                  }}
-                  onClick={() => navigate('/status', { state: { application: app } })}
+                  className="btn-secondary" 
+                  style={{ width: '100%' }}
+                  onClick={() => navigate('/status')}
                 >
-                  <Compass size={14} /> Track Your Status
+                  View Details
                 </button>
               </div>
             </div>

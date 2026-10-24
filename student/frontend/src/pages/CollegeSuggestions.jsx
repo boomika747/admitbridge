@@ -68,8 +68,15 @@ const CollegeSuggestions = () => {
         setAllColleges(shuffled);
         setFilteredColleges(shuffled.slice(0, 50));
       } catch (err) {
-        console.error("Failed to load universities:", err);
-        setError("Failed to load universities dataset. Please try again later.");
+        console.warn("Failed to load universities dataset, showing fallback list:", err);
+        const fallbackColleges = [
+          { name: "Stanford University", country: "US", feeValue: 55000, fees: "$55,000/year", tier: "Tier 1", link: "https://stanford.edu", intake: "Fall / Spring", scholarship: "Up to 50%" },
+          { name: "Massachusetts Institute of Technology", country: "US", feeValue: 58000, fees: "$58,000/year", tier: "Tier 1", link: "https://mit.edu", intake: "Fall / Spring", scholarship: "Up to 50%" },
+          { name: "University of Oxford", country: "UK", feeValue: 42000, fees: "$42,000/year", tier: "Tier 1", link: "https://ox.ac.uk", intake: "Fall / Spring", scholarship: "Merit Based" },
+          { name: "Technical University of Munich", country: "Germany", feeValue: 3500, fees: "$3,500/year", tier: "Tier 1", link: "https://tum.de", intake: "Fall / Spring", scholarship: "Merit Based" }
+        ];
+        setAllColleges(fallbackColleges);
+        setFilteredColleges(fallbackColleges);
       } finally {
         setLoading(false);
       }

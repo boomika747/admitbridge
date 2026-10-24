@@ -11,7 +11,6 @@ const authFetch = async (url, options = {}) => {
   return fetch(url, { ...options, headers });
 };
 
-
 const Dashboard = () => {
   const [activities, setActivities] = useState([
     { type: 'payment', title: 'Payment Approved for MIT Application Fee', time: '1 day ago', color: 'green' },
@@ -54,7 +53,7 @@ const Dashboard = () => {
         if (Array.isArray(data) && data.length > 0) {
           const dynamicActivities = data.reverse().map(app => ({
             type: 'application',
-            title: `Application Submitted to ${app.unis} via ${app.consultancyName}`,
+            title: `Application Submitted to ${app.unis || 'University'} via ${app.consultancyName || 'Consultancy'}`,
             time: getTimeAgo(app.timestamp),
             color: 'blue'
           }));
@@ -66,21 +65,19 @@ const Dashboard = () => {
           ]);
         }
       } catch (err) {
-        console.error("Error fetching activities", err);
-        // Fallback data
+        console.warn("Backend offline or static mode - showing demo activities:", err);
+        // Fallback data without displaying an intrusive error alert
         setActivities(prev => [
           { type: 'application', title: 'Application Submitted to Stanford University', time: '2 hours ago', color: 'blue' },
           ...prev
         ]);
-        // Do not spam user with error if using fallback data, or maybe we do
-        setError("Could not load recent activities. Showing cached data.");
       }
     };
     fetchActivities();
   }, []);
+
   return (
     <div className="dashboard fade-in">
-      
       {error && <div className="error-alert">{error}</div>}
 
       <div className="dashboard-content">

@@ -10,8 +10,35 @@ const authFetch = async (url, options = {}) => {
   return fetch(url, { ...options, headers });
 };
 
+const fallbackMessages = [
+  {
+    id: 1,
+    sender_id: 'usr_consultant',
+    sender_name: 'Advisor',
+    text: 'Hello Alex! Welcome to AdmitBridge. I will be guiding your MS in CS applications this season.',
+    timestamp: new Date(Date.now() - 3600000 * 4).toISOString(),
+    is_self: false
+  },
+  {
+    id: 2,
+    sender_id: 'usr_alex',
+    sender_name: 'Alex Johnson',
+    text: 'Thank you! I have uploaded my transcripts and GRE score. When can we discuss target universities?',
+    timestamp: new Date(Date.now() - 3600000 * 3).toISOString(),
+    is_self: true
+  },
+  {
+    id: 3,
+    sender_id: 'usr_consultant',
+    sender_name: 'Advisor',
+    text: 'Great profile! I have reviewed your GRE (324) and CGPA (3.9). Let us schedule a strategy call this week.',
+    timestamp: new Date(Date.now() - 3600000 * 1).toISOString(),
+    is_self: false
+  }
+];
+
 const Messages = () => {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState(fallbackMessages);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [replyText, setReplyText] = useState('');
@@ -22,18 +49,17 @@ const Messages = () => {
       const response = await authFetch(`${import.meta.env.VITE_API_URL}/messages?sender=usr_alex&receiver=usr_consultant`);
       if (response.ok) {
         const data = await response.json();
-        const processed = data.map(msg => ({
-          ...msg,
-          is_self: msg.sender_id === 'usr_alex'
-        }));
-        setMessages(processed);
-        setError(null);
-      } else {
-        if (messages.length === 0) setError("Failed to fetch messages.");
+        if (Array.isArray(data) && data.length > 0) {
+          const processed = data.map(msg => ({
+            ...msg,
+            is_self: msg.sender_id === 'usr_alex'
+          }));
+          setMessages(processed);
+          setError(null);
+        }
       }
     } catch (err) {
-      console.error(err);
-      if (messages.length === 0) setError("Network error: Failed to fetch messages.");
+      console.warn("Backend offline or static mode - showing demo messages:", err);
     } finally {
       setLoading(false);
     }
@@ -41,7 +67,7 @@ const Messages = () => {
 
   useEffect(() => {
     fetchMessages();
-    const interval = setInterval(fetchMessages, 5000);
+    const interval = setInterval(fetchMessages, 15000);
     return () => clearInterval(interval);
   }, []);
 
@@ -51,8 +77,21 @@ const Messages = () => {
 
   const handleSend = async () => {
     if (!replyText.trim()) return;
+    const textToSend = replyText;
+    setReplyText('');
+
+    const optimisticMsg = {
+      id: Date.now(),
+      sender_id: 'usr_alex',
+      sender_name: 'Alex Johnson',
+      text: textToSend,
+      timestamp: new Date().toISOString(),
+      is_self: true
+    };
+    setMessages(prev => [...prev, optimisticMsg]);
+
     try {
-      const response = await authFetch(`${import.meta.env.VITE_API_URL}/messages`, {
+      await authFetch(`${import.meta.env.VITE_API_URL}/messages`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -60,16 +99,11 @@ const Messages = () => {
           sender_name: 'Alex Johnson',
           receiver_id: 'usr_consultant',
           receiver_name: 'Consultant',
-          text: replyText
+          text: textToSend
         })
       });
-      if (response.ok) {
-        const data = await response.json();
-        setMessages(prev => [...prev, { ...data.message, is_self: true }]);
-        setReplyText('');
-      }
     } catch (err) {
-      console.error(err);
+      console.warn("Could not sync message to backend (offline mode):", err);
     }
   };
 
@@ -88,10 +122,24 @@ const Messages = () => {
       {error && <div className="error-alert" style={{ marginBottom: '16px' }}>{error}</div>}
 
       <div className="card" style={{ flex: 1, display: 'flex', padding: 0, overflow: 'hidden' }}>
+        <div style={{ width: '300px', borderRight: '1px solid var(--border-color)', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ padding: '20px', borderBottom: '1px solid var(--border-color)' }}>
+            <input type="text" placeholder="Search chats..." style={{ width: '100%', padding: '10px', borderRadius: '8px', border: '1px solid var(--border-color)' }} />
+          </div>
+          <div style={{ flex: 1, overflowY: 'auto' }}>
+            <div style={{ padding: '20px', borderBottom: '1px solid var(--border-color)', backgroundColor: 'rgba(250, 114, 104, 0.05)', cursor: 'pointer', borderLeft: '3px solid var(--primary-color)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+                <strong style={{ color: 'var(--text-dark)' }}>Global Ed Advisors</strong>
+              </div>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-light)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Active Consultation</p>
+            </div>
+          </div>
+        </div>
+        
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
           <div style={{ padding: '20px', borderBottom: '1px solid var(--border-color)', display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: 'var(--secondary-color)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>C</div>
-            <h3 style={{ margin: 0 }}>AdmitBridge Consultant</h3>
+            <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: 'var(--secondary-color)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>GA</div>
+            <h3 style={{ margin: 0 }}>Global Ed Advisors</h3>
           </div>
           <div style={{ flex: 1, padding: '20px', overflowY: 'auto', backgroundColor: '#FAFAFA', display: 'flex', flexDirection: 'column', gap: '16px' }}>
             {loading ? (
@@ -105,7 +153,7 @@ const Messages = () => {
                     try {
                         const d = new Date(msg.timestamp);
                         if (!isNaN(d)) displayTime = d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                        else displayTime = msg.timestamp; // fallback for old data like "10:30 AM"
+                        else displayTime = msg.timestamp;
                     } catch(e) { displayTime = msg.timestamp; }
                 }
                 return (

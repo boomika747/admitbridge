@@ -100,11 +100,17 @@ const Payments = () => {
         });
         if (response.ok) {
           const data = await response.json();
-          // Map MongoDB _id to app logic
-          setApplications(data);
+          if (Array.isArray(data) && data.length > 0) {
+            setApplications(data);
+          } else {
+            setApplications(fallbackPayments);
+          }
+        } else {
+          setApplications(fallbackPayments);
         }
       } catch (err) {
-        console.error("Failed to fetch applications", err);
+        console.warn("Backend offline or static mode - showing demo payments:", err);
+        setApplications(fallbackPayments);
       } finally {
         setLoading(false);
       }
